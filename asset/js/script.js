@@ -13,7 +13,7 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('fa-times');
     header.classList.toggle('toggle');
 
-    console.log("class toggling...")
+    //console.log("class toggling...")
 });
 
 window.addEventListener('scroll', () => {
@@ -23,10 +23,13 @@ window.addEventListener('scroll', () => {
 
     if (prevScrollPosition > currentScrollPosition) {
         header.classList.remove('toggle');
+        menu.classList.remove('fa-times');
+        
     }else{
         header.classList.remove('toggle');
     }
 
+    // condition - for showing upper arrow 
     if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
         topImg.style.display = "block";
     } else {
