@@ -248,6 +248,7 @@ section {
     padding   : 2rem;
     margin    : 2rem;
     cursor    : pointer;
+    border    : .2px dashed transparent;
 }
 
 .about .row .counter .box:hover {
@@ -377,13 +378,12 @@ section {
     display        : flex;
     flex-flow      : wrap;
     justify-content: center;
-    align-items    : center;
 }
 
 .content .row .content {
-    flex          : 1 1 30rem;
-    padding       : 4rem;
-    padding-bottom: 0;
+    flex            : 1 1 30rem;
+    padding         : 4rem;
+    padding-bottom  : 0;
 }
 
 .content .row .content .info h3:first-child {
