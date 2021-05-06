@@ -4,10 +4,14 @@
     --yellow   : #f9ca24;
     --leftSide : #2D333B;
     --rightSide: #22272E;
+    --link     :
 
-    /* 
-    header ==> #1a1a1a 
+        /* 
+    header ==> #1a1a1a  
+    main body ==> #111111
+    menu btn ==> #333 
     */
+
 }
 
 * {
@@ -307,16 +311,22 @@ section {
 .education .box-container .box span {
     font-size    : 1.3rem;
     color        : #fff;
-    background   : #222;
+    background   : var(--leftSide);
     border-radius: 5rem;
-    padding      : .5rem 2.5rem;
+    padding      : 1rem 2rem;
 
 }
 
+.education .box-container .box span:hover {
+    background-color: var(--yellow);
+    color           : black;
+    cursor          : pointer;
+}
+
 .education .box-container .box h3 {
-    font-size  : 2rem;
-    color      : #fff;
-    padding-top: 1.5rem;
+    font-size : 2rem;
+    color     : #fff;
+    margin-top: 3rem;
 }
 
 .education .box-container .box p {
@@ -329,7 +339,7 @@ section {
 .education .box-container .box i {
 
     position     : absolute;
-    top          : -1.5rem;
+    top          : -1rem;
     left         : -2.5rem;
     height       : 5rem;
     width        : 5rem;
