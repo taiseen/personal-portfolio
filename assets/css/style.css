@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,300&display=swap");
 
 :root {
-    --yellow: #f9ca24;
+    --yellow   : #f9ca24;
+    --leftSide : #2D333B;
+    --rightSide: #22272E;
+
+    /* 
+    header ==> #1a1a1a 
+    */
 }
 
 * {
@@ -29,15 +35,16 @@ html {
 }
 
 html::-webkit-scrollbar {
-    width: 1.4rem
+    width: 1.5rem
 }
 
 html::-webkit-scrollbar-track {
-    background: #222;
+    background: var(--leftSide);
 }
 
 html::-webkit-scrollbar-thumb {
-    background: var(--yellow);
+    background   : var(--yellow);
+    border-radius: 1rem;
 }
 
 
@@ -57,7 +64,7 @@ header {
     z-index        : 1000;
     height         : 100%;
     width          : 35rem;
-    background     : #1a1a1a;
+    background     : var(--leftSide);
     display        : flex;
     align-items    : center;
     justify-content: center;
@@ -97,20 +104,21 @@ header .navbar ul li a {
     display      : block;
     padding      : 1rem;
     margin       : 1.5rem 0;
-    background   : #333;
+    background   : var(--rightSide);
     color        : #fff;
     font-size    : 2rem;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
 }
 
 header .navbar ul li a:hover {
-    background: var(--yellow)
+    background: var(--yellow);
+    color     : black;
 }
 
 /* ======================== */
 /* Header selection | End   */
 /* ======================== */
-
+/* Toggle Menu Icon */
 #menu {
     position  : fixed;
     top       : 2rem;
@@ -132,6 +140,10 @@ header .navbar ul li a:hover {
 /* Home selection | Start   */
 /* ======================== */
 
+main {
+    background-color: var(--rightSide);
+}
+
 section {
     min-height: 100vh;
     padding   : 1rem;
@@ -140,7 +152,7 @@ section {
 .btn {
     padding      : .7rem 3rem;
     margin       : 1rem 2rem 0 0;
-    background   : #333;
+    background   : var(--leftSide);
     color        : #fff;
     cursor       : pointer;
     font-size    : 2rem;
@@ -154,6 +166,7 @@ section {
 
 .btn:hover {
     background-color: var(--yellow);
+    color           : black;
 }
 
 .home {
@@ -242,7 +255,7 @@ section {
 .about .row .counter .box {
     width     : 20rem;
     height    : 15rem;
-    background: #222;
+    background: var(--leftSide);
     color     : #fff;
     text-align: center;
     padding   : 2rem;
@@ -381,9 +394,9 @@ section {
 }
 
 .content .row .content {
-    flex            : 1 1 30rem;
-    padding         : 4rem;
-    padding-bottom  : 0;
+    flex          : 1 1 30rem;
+    padding       : 4rem;
+    padding-bottom: 0;
 }
 
 .content .row .content .info h3:first-child {
@@ -400,7 +413,7 @@ section {
 .content .row form .box {
     padding       : 1.5rem;
     margin        : 1rem 0;
-    background    : #3333;
+    background    : var(--leftSide);
     color         : #fff;
     text-transform: none;
     font-size     : 1.7rem;

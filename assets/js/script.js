@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
     }
 
     // condition - for showing upper arrow 
-    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         topImg.style.display = "block";
     } else {
         topImg.style.display = "none";
