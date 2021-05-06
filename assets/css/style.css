@@ -301,7 +301,7 @@ section {
 }
 
 .education .box-container .box {
-    width       : 27rem;
+    width       : 30rem;
     margin      : 4rem 1rem;
     padding-left: 4rem;
     border-left : .2rem solid #fff;
@@ -324,9 +324,10 @@ section {
 }
 
 .education .box-container .box h3 {
-    font-size : 2rem;
-    color     : #fff;
-    margin-top: 3rem;
+    font-size     : 2rem;
+    color         : #fff;
+    margin-top    : 3rem;
+    text-transform: none;
 }
 
 .education .box-container .box p {
