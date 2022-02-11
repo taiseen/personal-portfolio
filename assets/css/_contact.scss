@@ -1,0 +1,75 @@
+/* =========================== */
+/* Contact selection | Start   */
+/* =========================== */
+.contact {
+
+    .row {
+        display        : flex;
+        flex-flow      : wrap;
+        justify-content: center;
+
+        .contact-info {
+            flex          : 1 1 30rem;
+            padding       : 4rem;
+            padding-bottom: 0;
+
+            .title {
+                text-transform: uppercase;
+                color         : var(--white);
+                font-size     : 3rem;
+                padding-bottom: 2rem;
+            }
+
+            .info {
+
+                h3 {
+                    display    : flex;
+                    align-items: center;
+                    font-size  : 2rem;
+                    color      : var(--white);
+                    padding    : 1rem 0;
+                    font-weight: normal;
+
+                    &:first-child {
+                        text-transform: none;
+                    }
+
+                    i {
+                        padding-right: 1rem;
+                        color        : var(--yellow);
+                    }
+                }
+            }
+        }
+
+        form {
+            flex         : 1 1 48rem;
+            padding      : 2rem;
+            margin       : 2rem;
+            margin-bottom: 4rem;
+
+            .box {
+                padding       : 1.5rem;
+                margin        : 1rem 0;
+                background    : var(--leftSide);
+                color         : var(--white);
+                text-transform: none;
+                font-size     : 1.7rem;
+                width         : 100%;
+
+                &::placeholder {
+                    text-transform: capitalize;
+                }
+            }
+
+            .message {
+                height: 15rem;
+                resize: none;
+            }
+        }
+    }
+}
+
+/* =========================== */
+/* Content selection | End     */
+/* =========================== */

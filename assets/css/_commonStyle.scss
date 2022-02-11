@@ -1,0 +1,37 @@
+section {
+    min-height: 100vh;
+    padding   : 1rem;
+}
+
+.heading {
+    text-align   : center;
+    margin       : 0 6rem;
+    font-size    : 4rem;
+    padding      : 1rem;
+    border-bottom: .1rem solid var(--white)4;
+    color        : var(--white);
+
+    span {
+        color: var(--yellow);
+    }
+}
+
+.btn {
+    padding      : .7rem 3rem;
+    margin       : 1rem 2rem 0 0;
+    background   : var(--leftSide);
+    color        : var(--white);
+    cursor       : pointer;
+    font-size    : 2rem;
+    border-radius: 2rem;
+
+    &:hover {
+        background-color: var(--yellow);
+        color           : black;
+    }
+
+    i {
+        padding-left: 1rem;
+        font-size   : 1.8rem;
+    }
+}

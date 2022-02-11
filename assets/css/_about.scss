@@ -1,0 +1,67 @@
+/* ======================== */
+/* About selection | Start  */
+/* ======================== */
+
+.about {
+
+    .row {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        flex-wrap      : wrap;
+        padding        : 1rem 0;
+
+        .info {
+            flex        : 1 1 48rem;
+            padding     : 2rem 1rem;
+            padding-left: 6rem;
+
+            h3 {
+                font-size  : 2rem;
+                color      : var(--yellow);
+                padding    : 1rem 0;
+                font-weight: normal;
+
+                span {
+                    color  : #eee;
+                    padding: 0 .5rem;
+                }
+            }
+        }
+
+        .counter {
+            flex           : 1 1 48rem;
+            display        : flex;
+            justify-content: center;
+            flex-wrap      : wrap;
+
+            .box {
+                width     : 20rem;
+                height    : 15rem;
+                background: var(--leftSide);
+                color     : var(--white);
+                text-align: center;
+                padding   : 2rem;
+                margin    : 2rem;
+                cursor    : pointer;
+                border    : .2px dashed transparent;
+
+                &:hover {
+                    border: .2px dashed var(--yellow);
+                }
+
+                span {
+                    font-size: 4rem;
+                    color    : var(--yellow);
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+/* ======================== */
+/* About selection | End    */
+/* ======================== */

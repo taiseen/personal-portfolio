@@ -1,0 +1,66 @@
+/* =========================== */
+/* Education selection | Start */
+/* =========================== */
+.education {
+
+    .box-container {
+        display        : flex;
+        align-items    : center;
+        justify-content: space-evenly;
+        flex-wrap      : wrap;
+        padding        : 1rem 0;
+        padding-left   : 3rem;
+
+        .box {
+            width       : 30rem;
+            margin      : 4rem 1rem;
+            padding-left: 4rem;
+            border-left : .2rem solid var(--white);
+            position    : relative;
+
+            span {
+                font-size    : 1.3rem;
+                color        : var(--white);
+                background   : var(--leftSide);
+                border-radius: 5rem;
+                padding      : 1rem 2rem;
+
+                &:hover {
+                    background-color: var(--yellow);
+                    color           : black;
+                    cursor          : pointer;
+                }
+            }
+
+            h3 {
+                font-size     : 2rem;
+                color         : var(--white);
+                margin-top    : 3rem;
+                text-transform: none;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color    : var(--white);
+                padding  : 1rem 0;
+            }
+
+            i {
+                position     : absolute;
+                top          : -1rem;
+                left         : -2.5rem;
+                height       : 5rem;
+                width        : 5rem;
+                border-radius: 50%;
+                line-height  : 5rem;
+                text-align   : center;
+                font-size    : 2rem;
+                color        : var(--white);
+                background   : var(--yellow);
+            }
+        }
+    }
+}
+/* =========================== */
+/* Education selection | End   */
+/* =========================== */

@@ -1,0 +1,35 @@
+/* =========================== */
+/* Portfolio selection | Start */
+/* =========================== */
+.portfolio {
+
+    .box-container {
+        display        : flex;
+        flex-flow      : wrap;
+        justify-content: center;
+        align-items    : center;
+        padding        : 2rem 0;
+
+        .box {
+            height       : 20rem;
+            width        : 25rem;
+            margin       : 2rem;
+            cursor       : pointer;
+            margin-bottom: 10rem;
+
+            &:hover img {
+                transform: scale(1.2);
+            }
+
+            img {
+                width        : 100%;
+                border-radius: 1rem;
+                object-fit   : cover;
+
+            }
+        }
+    }
+}
+/* =========================== */
+/* Portfolio selection | End   */
+/* =========================== */

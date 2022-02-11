@@ -1,0 +1,85 @@
+/* ======================== */
+/* Header selection | Start */
+/* ======================== */
+header {
+    position       : fixed;
+    top            : 0;
+    left           : 0;
+    z-index        : 1000;
+    height         : 100%;
+    width          : 35rem;
+    background     : var(--leftSide);
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    flex-flow      : column;
+    text-align     : center;
+
+    .user {
+        img {
+            height       : 17rem;
+            width        : 17rem;
+            border-radius: 50%;
+            object-fit   : cover;
+            margin-bottom: 1rem;
+            border       : .3rem solid var(--yellow)
+        }
+
+        .name {
+            font-size: 3.5rem;
+            color    : var(--white);
+        }
+
+        .post {
+            font-size     : 2rem;
+            color         : #eee;
+            text-transform: capitalize;
+        }
+    }
+
+    .navbar {
+        width: 100%;
+
+        ul {
+            padding: 1rem 3rem;
+
+            li a {
+                display      : block;
+                padding      : 1rem;
+                margin       : 1.5rem 0;
+                background   : var(--rightSide);
+                color        : var(--white);
+                font-size    : 2rem;
+                border-radius: 1.5rem;
+
+                &:hover {
+                    background: var(--yellow);
+                    color     : black;
+                }
+            }
+        }
+    }
+}
+
+/* ======================== */
+/* Header selection | End   */
+/* ======================== */
+
+
+/* Toggle Menu Icon */
+#menu {
+    position  : fixed;
+    top       : 2rem;
+    right     : 2rem;
+    background: #333;
+    color     : var(--white);
+    cursor    : pointer;
+    font-size : 2.5rem;
+    padding   : 1rem 1.5rem;
+    z-index   : 1000;
+    display   : none;
+
+    &:hover {
+        background: tomato;
+    }
+}

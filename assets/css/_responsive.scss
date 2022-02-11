@@ -1,0 +1,62 @@
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        padding: 1rem 4rem;
+    }
+}
+
+@media (max-width: 991px) {
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        left: -120%;
+    }
+
+    header.toggle {
+        left: 0%;
+    }
+
+    #menu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        width: 100vw;
+    }
+
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row .counter .box {
+        width: 100%;
+    }
+
+    .education .box-container .box {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
+        width: 100%;
+
+    }
+
+    .content .row form {
+        margin: 3rem 0;
+    }
+}
