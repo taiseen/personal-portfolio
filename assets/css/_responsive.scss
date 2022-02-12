@@ -1,5 +1,4 @@
-
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     html {
         font-size: 55%;
     }
@@ -9,32 +8,40 @@
     }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
+
+    .utilities {
+
+        #themeToggling {
+            top  : 2rem !important;
+            right: 9rem !important;
+        }
+
+        #menu {
+            display: block !important;
+        }
+    }
 
     body {
         padding: 0;
-    }
 
-    header {
-        left: -120%;
-    }
+        header {
+            left: -120%;
 
-    header.toggle {
-        left: 0%;
-    }
-
-    #menu {
-        display: block;
+            &.toggle {
+                left: 0%;
+            }
+        }
     }
 }
 
-@media (max-width: 768px) {
-    html {
-        font-size: 50%;
-    }
+@media screen and (max-width: 768px) {
+    // html {
+    //     font-size: 50%;
+    // }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     header {
         width: 100vw;
     }
@@ -53,7 +60,6 @@
 
     .portfolio .box-container .box {
         width: 100%;
-
     }
 
     .content .row form {

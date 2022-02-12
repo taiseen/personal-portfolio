@@ -3,4 +3,8 @@
 
 # Personal Portfolio - [Live Link](https://portfolio-of-taiseen.netlify.app)
 
-
+## Features
+- color toggler
+- scroll indicator 
+- go to top 
+- responsive menu

@@ -1,7 +1,6 @@
 /* ======================== */
 /* About selection | Start  */
 /* ======================== */
-
 .about {
 
     .row {
@@ -23,7 +22,7 @@
                 font-weight: normal;
 
                 span {
-                    color  : #eee;
+                    color  : var(--white);
                     padding: 0 .5rem;
                 }
             }
