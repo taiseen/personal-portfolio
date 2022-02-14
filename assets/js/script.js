@@ -85,6 +85,20 @@ window.addEventListener('scroll', () => {
 /*****************************************************************
 ******************************************************************
 ******************************************************************/
+// 15 Feb 2022
+// JavaScript Typing Animation
+let typed = new Typed('.auto-input', {
+
+    strings: ['Md Taiseen Azam', 'Web Developer', 'Front-end Developer'],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+
+});
+
+/*****************************************************************
+******************************************************************
+******************************************************************/
 
 // DISABLE the RIGHT CLICK for viewing the ==> View Page Source Code
 document.addEventListener('contextmenu', (e) => {

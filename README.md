@@ -8,3 +8,4 @@
 - scroll indicator 
 - go to top 
 - responsive menu
+- js typing animation
