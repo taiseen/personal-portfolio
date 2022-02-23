@@ -3,9 +3,32 @@
 
 # Personal Portfolio - [Live Link](https://portfolio-of-taiseen.netlify.app)
 
-## Features
-- color toggler
-- scroll indicator 
-- go to top 
-- responsive menu
-- js typing animation
+## Using Tools & Language
+* HTML
+* SASS 
+* JavaScript
+* cdn - [AOS](https://cdnjs.com/libraries/aos) ( v-2.3.4 ) - CSS + JS 
+* cdn - [Font-awesome](https://cdnjs.com/libraries/font-awesome) ( v-5.15.4 ) - CSS 
+
+<br/>
+
+```
+What did I learn, while building this project? 
+What challenges did I face & How did I overcome them?
+```
+## Learning Context Or Features Have :-
+- SASS ==> nesting , @mixing + @include, _partial + @import 
+- Animate On Scroll Library (ASO)
+- CSS + JS minified version
+- Toggle Theme Colors
+- Typing Animation Js
+- Scroll Indicator
+- Responsive Menu
+- Go To Top 
+
+## Challenges overcome by getting help form :-
+1. Google Search | Blogs
+2. StackOverFlow
+3. Git Discussion Issues
+3. Chrome Developer Tools 
+4. My Past Experiences

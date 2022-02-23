@@ -4,32 +4,71 @@
 .portfolio {
 
     .box-container {
-        display        : flex;
-        flex-flow      : wrap;
-        justify-content: center;
-        align-items    : center;
-        padding        : 2rem 0;
+        // display        : flex;
+        // flex-flow      : wrap;
+        // flex-direction : column;
+        // justify-content: center;
+        // align-items    : center;
+        padding: .5rem 0;
 
-        .box {
-            height       : 20rem;
-            width        : 25rem;
-            margin       : 2rem;
-            cursor       : pointer;
-            margin-bottom: 10rem;
+        .btns-container {
+            display        : flex;
+            flex-wrap      : wrap;
+            align-items    : center;
+            justify-content: center;
+            padding        : 2rem 0;
+        }
 
-            &:hover img {
-                transform: scale(1.2);
+
+        .image-container {
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+            flex-wrap      : wrap;
+            gap            : 2.5rem;
+
+
+            .images {
+
+                height                 : 30rem;
+                width                  : 40rem;
+                overflow               : hidden;
+                border-top-left-radius : .8rem;
+                border-top-right-radius: .8rem;
+                box-shadow             : var(--boxShadow);
+
+                &:hover img {
+                    transform: translateY(-80%);
+                }
+
+                img {
+                    width: 100%;
+                    transition: 5s ease;
+                }
+
+                .browser {
+                    position        : sticky;
+                    z-index         : 2;
+                    height          : 2rem;
+                    background-color: #ddd;
+                    display         : flex;
+                    align-items     : center;
+                    justify-content : flex-end;
+
+                    .dot {
+                        height          : 0.5rem;
+                        width           : 0.5rem;
+                        border-radius   : 50%;
+                        background-color: #222;
+                        margin-right    : 0.6rem;
+                    }
+                }
             }
 
-            img {
-                width        : 100%;
-                border-radius: 1rem;
-                object-fit   : cover;
-
-            }
         }
     }
 }
+
 /* =========================== */
 /* Portfolio selection | End   */
 /* =========================== */
