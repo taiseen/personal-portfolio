@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,300&display=swap");
+@import './mixing.scss';
+
+:root {
+    --yellow   : #e6b91a;
+    --leftSide : #2D333B;
+    --rightSide: #22272E;
+    --white    : #ddd;
+    --education: #111;
+    --boxShadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    list-style     : none;
+    text-decoration: none;
+    outline        : none;
+    border         : none;
+    transition     : .2s linear;
+    font-family    : 'Nunito', sans-serif;
+    text-transform : capitalize;
+}
+
+*::selection {
+    background: var(--yellow);
+    color     : var(--education);
+}
+
+html {
+    font-size         : 62.5%;
+    overflow-x        : hidden;
+    scroll-behavior   : smooth;
+    scroll-padding-top: 5rem;
+
+    &::-webkit-scrollbar {
+        width: 1rem
+    }
+
+    &::-webkit-scrollbar-track {
+        background: var(--leftSide);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: var(--yellow);
+        border-radius   : .5rem;
+    }
+}
+
+body {
+    padding-left: 35rem;
+
+    &.userClick {
+        --yellow   : #154c8b;
+        --leftSide : #D1D1D1;
+        --rightSide: #EFEFEF;
+        --white    : #111;
+        --education: #ddd;
+    }
+}
+
+main {
+    background-color: var(--rightSide);
+}
+
+section {
+    min-height: 100vh;
+    padding   : 1rem;
+}
+
+.heading {
+    text-align   : center;
+    margin       : 0 6rem;
+    font-size    : 4rem;
+    padding      : 1rem;
+    border-bottom: .1rem solid var(--white)4;
+    color        : var(--white);
+
+    span {
+        color: var(--yellow);
+    }
+}
+
+.btn {
+    padding      : 1.1rem 2.2rem;
+    margin       : 1rem 2rem 0 0;
+    background   : var(--leftSide);
+    color        : var(--white);
+    cursor       : pointer;
+    font-size    : 2rem;
+    border-radius: 2rem;
+
+    &:hover {
+        background-color: var(--yellow);
+        color           : var(--education);
+    }
+
+    i {
+        padding-left: 1rem;
+        font-size   : 1.8rem;
+    }
+}
+
+
+@import 'responsiveness.scss';

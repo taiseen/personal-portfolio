@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        padding: 1rem 4rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .utilities {
+
+        #themeToggling {
+            top  : 2rem !important;
+            right: 9rem !important;
+        }
+
+        #menu {
+            display: block !important;
+        }
+    }
+
+    body {
+        padding: 0;
+
+        header {
+            left: -120%;
+
+            &.userClick {
+                left: 0%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .skills-container {
+        padding: 1rem !important;
+
+        .box {
+            grid-template-columns: repeat(1, 1fr) !important;
+            margin-bottom        : 3rem !important;
+
+            h4 {
+                margin-bottom: .5rem;
+                font-size    : 2.5rem !important;
+            }
+
+            .percent .progressColor span {
+                top      : -25px !important;
+                font-size: 1.8rem !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        width: 100vw;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+
+    .home {
+        padding: 0 1.5rem;
+
+        h1 {
+            margin   : 1rem 0;
+            font-size: 3.2rem;
+        }
+
+        .myQuotes {
+            font-size    : 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row {
+
+        .info{
+            padding: 2rem;
+        }
+
+        .counter .box {
+            width: 100%;
+        }
+    }
+
+    .education .box-container .box {
+        width: 100%;
+    }
+
+    .portfolio .box-container .box {
+        width: 100%;
+    }
+
+    .contact {
+        margin-top: 10rem;
+
+        .row {
+            margin-top: 3rem;
+
+            .contact-info {
+                padding: 2rem;
+            }
+
+            form {
+                padding      : .5rem 1rem;
+                margin       : .5rem 1rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}

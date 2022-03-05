@@ -1,0 +1,18 @@
+@mixin grid($size) {
+    display              : grid;
+    grid-template-columns: repeat(auto-fit, minmax($size, 1fr));
+    gap                  : 2rem;
+}
+
+@mixin fontStyle($size, $color) {
+    font-size: $size;
+    color    : $color;
+}
+
+@mixin iconSize($size) {
+    height       : $size;
+    width        : $size;
+    line-height  : $size;
+    text-align   : center;
+    border-radius: 50%;
+}

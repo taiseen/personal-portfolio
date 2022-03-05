@@ -1,0 +1,46 @@
+@import '../../style/mixing.scss';
+
+.home {
+    display        : flex;
+    justify-content: center;
+    flex-flow      : column;
+    padding        : 0 15rem;
+
+    h3 {
+        text-transform: none;
+        @include fontStyle(2.5rem, var(--white));
+    }
+
+    h1 {
+        @include fontStyle(5rem, var(--white));
+
+        .auto-input {
+            padding-left  : 1rem;
+            text-transform: initial;
+            color         : var(--yellow);
+        }
+    }
+
+    .myQuotes {
+        padding   : 1rem 0;
+        text-align: justify;
+        @include fontStyle(2.5rem, red);
+
+        .salam{
+            color : var(--yellow);
+        }
+
+        .hello {
+            color: var(--yellow);
+        }
+
+        .mySpeech {
+            text-transform: none;
+            color         : var(--white);
+        }
+    }
+
+    .btn {
+        width: max-content;
+    }
+}

@@ -1,6 +1,5 @@
-/* =========================== */
-/* Education selection | Start */
-/* =========================== */
+@import '../../style/mixing.scss';
+
 .education {
 
     .box-container {
@@ -19,8 +18,7 @@
             position    : relative;
 
             span {
-                font-size    : 1.3rem;
-                color        : var(--white);
+                @include fontStyle(1.8rem, var(--white));
                 background   : var(--leftSide);
                 border-radius: 5rem;
                 padding      : 1rem 2rem;
@@ -33,15 +31,13 @@
             }
 
             h3 {
-                font-size     : 2rem;
-                color         : var(--white);
+                @include fontStyle(2.2rem, var(--white));
                 margin-top    : 3rem;
                 text-transform: none;
             }
 
             p {
-                font-size: 1.5rem;
-                color    : var(--white);
+                @include fontStyle(1.6rem, var(--white));
                 padding  : 1rem 0;
             }
 
@@ -61,6 +57,3 @@
         }
     }
 }
-/* =========================== */
-/* Education selection | End   */
-/* =========================== */

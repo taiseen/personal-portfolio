@@ -1,14 +1,25 @@
 03-May-2021 <br/>
-11-Feb-2022 ==> convert into `sass`
+11-Feb-2022 ==> convert into `sass` <br/>
+04-Mar-2022 ==> convert into `react`
 
-# Personal Portfolio - [Live Link](https://portfolio-of-taiseen.netlify.app)
+# Personal Portfolio - [Live Link](https://taiseen.netlify.app)
 
 ## Using Tools & Language
-* HTML
+* React - jsx
 * SASS 
-* JavaScript
 * cdn - [AOS](https://cdnjs.com/libraries/aos) ( v-2.3.4 ) - CSS + JS 
 * cdn - [Font-awesome](https://cdnjs.com/libraries/font-awesome) ( v-5.15.4 ) - CSS 
+
+## Installed Packages
+* yarn create react-app 
+* yarn add sass
+* yarn add react-typed
+* yarn add react-router-dom
+* yarn add aos
+
+## Development + Production CMD
++ yarn start
++ yarn build
 
 <br/>
 
