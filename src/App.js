@@ -1,4 +1,4 @@
-import { Header, Home, About, Education, Skills, Portfolio, Contact } from './components';
+import { Header, Home, About, Education, Portfolio, Contact } from './components';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import "aos/dist/aos.css";
@@ -59,7 +59,6 @@ function App() {
         <Home />
         <About />
         <Education />
-        {/* <Skills /> */}
         <Portfolio />
         <Contact />
       </main>

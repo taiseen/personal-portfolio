@@ -105,15 +105,28 @@ const portfolio = [
     {
         id: 6,
         title: 'Coffee Shop - v3',
-        liveUrl: 'https://light-coffee.netlify.app/',
+        liveUrl: 'https://light-coffee.netlify.app',
         imgUrlEndPoint: '3px09kG/Coffee-Shop-v3',
     },
     {
         id: 7,
         title: 'Demo of React + SASS',
-        liveUrl: 'https://demo-react-sass.netlify.app/',
+        liveUrl: 'https://demo-react-sass.netlify.app',
         imgUrlEndPoint: 'gDsJFjQ/Demo-of-React-SASS',
     },
+    {
+        id: 8,
+        title: 'Grocery Store - React UI',
+        liveUrl: 'https://grocery-store-react-site.netlify.app',
+        imgUrlEndPoint: 'vYPN4TS/Grocery-Store-React',
+    },
+    {
+        id: 9,
+        title: 'Mini Shopping Cart - React',
+        liveUrl: 'https://mini-shopping-cart-demo.netlify.app',
+        imgUrlEndPoint: 'CtKBR6d/Mini-Shopping-Cart',
+    },
+
 ];
 
 
