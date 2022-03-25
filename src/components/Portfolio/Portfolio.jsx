@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
+import { useState } from 'react'
 import { data } from '../../constants'
 import './Portfolio.scss'
 
-const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint } }) => (
+const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint, tag } }) => (
 
   <a
     href={liveUrl}
@@ -13,10 +13,11 @@ const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint } }) => (
     data-aos={"zoom-in"}
   >
 
-    <div class="browser">
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
+    <div className="browser">
+      <p className="title">{title}</p>
+      <div className="dot"></div>
+      <div className="dot"></div>
+      <div className="dot"></div>
     </div>
 
     <img src={`https://i.ibb.co/${imgUrlEndPoint}.jpg`} alt={title} />
@@ -26,9 +27,16 @@ const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint } }) => (
 
 const Portfolio = () => {
 
-  useEffect(() => {
+  const [activeClick, setActiveClick] = useState('all')
 
-  }, [])
+  const category = [
+    { context: 'all' },
+    { context: 'sass + js' },
+    { context: 'sass + react' },
+    { context: 'tailwind + react' },
+    // { context: 'node-js' },
+  ]
+
 
   return (
 
@@ -36,20 +44,31 @@ const Portfolio = () => {
 
       <h1 className="heading"><span>portfolio</span></h1>
 
-
-      <ul class="btns-container">
-        <li class="btn active" data-filter="all">all</li>
-        <li class="btn" data-filter="html">SASS + JS</li>
-        <li class="btn" data-filter="javascript">SASS + React</li>
-        <li class="btn" data-filter="react">Tailwind + React</li>
-        <li class="btn" data-filter="nodejs">NodeJs</li>
+      <ul className="btn-container">
+        {
+          category.map(cat => (
+            <li
+              key={cat.context}
+              className={`btn ${activeClick === cat.context && 'active'}`}
+              onClick={() => setActiveClick(cat.context)}
+            >
+              {cat.context}
+            </li>
+          ))
+        }
       </ul>
 
       <div className="work-container">
         {
-          data.portfolio.map(info => (
-            <WorkBox key={info.id} info={info} />
-          ))
+          activeClick === 'all'
+            ? data.portfolio.slice(0).reverse().map(info => (
+              <WorkBox key={info.id} info={info} />
+            ))
+            : data.portfolio.map(info =>
+              (info.tag[0] === activeClick.split('+')[0].trim() &&
+                info.tag[1] === activeClick.split('+')[1].trim())
+              && <WorkBox key={info.id} info={info} />
+            )
         }
       </div>
     </section>

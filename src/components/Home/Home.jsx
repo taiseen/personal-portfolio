@@ -27,7 +27,7 @@ const Home = () => {
                 </span>
             </h1>
             <div className="myQuotes">
-            “<span class="salam">As-Salamu-Alaikum</span>” 
+            “<span className="salam">As-Salamu-Alaikum</span>” 
                 <span className="mySpeech">
                     {data.mySpeech}
                 </span>

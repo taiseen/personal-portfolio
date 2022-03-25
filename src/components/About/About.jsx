@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import { data, images } from '../../constants';
 import './About.scss';
 
@@ -9,10 +9,6 @@ const About = () => {
     const showAward = () => {
         imageShow.current.setAttribute('src', images.certificate);
     }
-
-    useEffect(() => {
-
-    }, [])
 
     return (
         <section id="about" className="about">
@@ -31,21 +27,24 @@ const About = () => {
                     <a href={images.cv} className="btn">
                         Download CV <i className="fas fa-download"></i>
                     </a>
+                    <a href='https://cv-of-taiseen.netlify.app' className="btn" target='_blank' rel="noreferrer">
+                        Live CV <i className="fas fa-eye"></i>
+                    </a>
                 </div>
 
                 <div className="counter" data-aos={"fade-down"} >
                     <div className="box">
-                        <span>2+</span>
+                        <span>1+</span>
                         <h3>Year of experience</h3>
                     </div>
 
                     <div className="box">
-                        <span>15+</span>
+                        <span>12+</span>
                         <h3>Project Completed</h3>
                     </div>
 
                     <div className="box">
-                        <span>5+</span>
+                        <span>3+</span>
                         <h3>Happy Client</h3>
                     </div>
 

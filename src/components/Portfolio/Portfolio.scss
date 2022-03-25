@@ -1,11 +1,16 @@
 .portfolio {
 
-    .btns-container {
+    .btn-container {
         display        : flex;
         flex-wrap      : wrap;
         align-items    : center;
         justify-content: center;
         padding        : 2rem 0;
+
+        .active {
+            background-color : var(--yellow);
+            color: #FFF;
+        }
     }
 
     .work-container {
@@ -36,11 +41,19 @@
             .browser {
                 position        : sticky;
                 z-index         : 2;
-                height          : 2rem;
+                height          : 2.5rem;
                 background-color: #ddd;
                 display         : flex;
                 align-items     : center;
                 justify-content : flex-end;
+
+                .title {
+                    position : absolute;
+                    top      : 0rem;
+                    left     : 1rem;
+                    font-size: 1.8rem;
+                    color    : #222;
+                }
 
                 .dot {
                     height          : 0.5rem;

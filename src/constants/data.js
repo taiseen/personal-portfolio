@@ -77,56 +77,72 @@ const portfolio = [
         title: 'Car - Max Wheels',
         liveUrl: 'https://car-website-demo.netlify.app',
         imgUrlEndPoint: '1LzZJbq/Car-Max-Wheels',
+        tag: ['sass', 'js'],
     },
     {
         id: 2,
         title: 'Travel Agency - Dark Mode',
         liveUrl: 'https://travel-agency-sample.netlify.app',
         imgUrlEndPoint: '1L5453k/Travel-Agency-Dark-Mode',
+        tag: ['sass', 'js'],
     },
     {
         id: 3,
         title: 'Construction',
         liveUrl: 'https://construction-demo.netlify.app',
         imgUrlEndPoint: 'BTFJcMC/Construction',
+        tag: ['sass', 'js'],
+
     },
     {
         id: 4,
         title: 'Book\'s Store',
         liveUrl: 'https://book-store-sample.netlify.app',
         imgUrlEndPoint: 'CVgfYrN/Book-s-Store',
+        tag: ['sass', 'js'],
     },
     {
         id: 5,
         title: 'Grocery Store',
         liveUrl: 'https://grocery-demo.netlify.app',
         imgUrlEndPoint: '0nPmQFf/Grocery-Store',
+        tag: ['sass', 'js'],
     },
     {
         id: 6,
         title: 'Coffee Shop - v3',
         liveUrl: 'https://light-coffee.netlify.app',
         imgUrlEndPoint: '3px09kG/Coffee-Shop-v3',
+        tag: ['sass', 'js'],
     },
     {
         id: 7,
-        title: 'Demo of React + SASS',
+        title: 'Demo of SASS + React UI',
         liveUrl: 'https://demo-react-sass.netlify.app',
         imgUrlEndPoint: 'gDsJFjQ/Demo-of-React-SASS',
+        tag: ['sass', 'react'],
     },
     {
         id: 8,
         title: 'Grocery Store - React UI',
         liveUrl: 'https://grocery-store-react-site.netlify.app',
         imgUrlEndPoint: 'vYPN4TS/Grocery-Store-React',
+        tag: ['sass', 'react'],
     },
     {
         id: 9,
         title: 'Mini Shopping Cart - React',
         liveUrl: 'https://mini-shopping-cart-demo.netlify.app',
         imgUrlEndPoint: 'CtKBR6d/Mini-Shopping-Cart',
+        tag: ['sass', 'react'],
     },
-
+    {
+        id: 10,
+        title: 'Add Location - React',
+        liveUrl: 'https://add-location.netlify.app',
+        imgUrlEndPoint: '7V9CkjS/add-Location',
+        tag: ['tailwind', 'react'],
+    },
 ];
 
 
