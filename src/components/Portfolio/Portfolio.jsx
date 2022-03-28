@@ -17,10 +17,15 @@ const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint, tag } }) => (
       <p className="title">{title}</p>
       <div className="dot"></div>
       <div className="dot"></div>
-      <div className="dot"></div>
+      <div className="dot">{console.log(
+        `url("https://i.ibb.co/${imgUrlEndPoint}.jpg")`)}
+        </div>
     </div>
 
-    <img src={`https://i.ibb.co/${imgUrlEndPoint}.jpg`} alt={title} />
+    {/* <img src={`https://i.ibb.co/${imgUrlEndPoint}.jpg`} alt={title} /> */}
+    <span style={{backgroundImage: `url("https://i.ibb.co/${imgUrlEndPoint}.jpg")`}}>
+     
+    </span>
 
   </a>
 )
@@ -70,6 +75,7 @@ const Portfolio = () => {
               && <WorkBox key={info.id} info={info} />
             )
         }
+        
       </div>
     </section>
   )
