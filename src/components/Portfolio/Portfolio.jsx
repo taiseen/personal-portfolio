@@ -39,6 +39,7 @@ const Portfolio = () => {
     { context: 'sass + js' },
     { context: 'sass + react' },
     { context: 'tailwind + react' },
+    { context: 'material-ui + react' },
     // { context: 'node-js' },
   ]
 
@@ -75,7 +76,6 @@ const Portfolio = () => {
               && <WorkBox key={info.id} info={info} />
             )
         }
-        
       </div>
     </section>
   )

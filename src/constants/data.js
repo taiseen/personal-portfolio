@@ -143,6 +143,13 @@ const portfolio = [
         imgUrlEndPoint: '7V9CkjS/add-Location',
         tag: ['tailwind', 'react'],
     },
+    {
+        id: 11,
+        title: 'Moments - MERN App',
+        liveUrl: 'https://moments-app-bd.netlify.app/',
+        imgUrlEndPoint: 'GcwDwmz/moments-app-bd',
+        tag: ['material-ui', 'react'],
+    },
 ];
 
 
