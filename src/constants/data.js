@@ -42,6 +42,7 @@ const education = [
     },
 ];
 
+
 const skills = [
     {
         id: 1,
@@ -69,6 +70,7 @@ const skills = [
         percent: '60',
     },
 ];
+
 
 const portfolio = [
 
@@ -145,9 +147,9 @@ const portfolio = [
     },
     {
         id: 11,
-        title: 'Moments - MERN App',
-        liveUrl: 'https://moments-app-bd.netlify.app/',
-        imgUrlEndPoint: 'GcwDwmz/moments-app-bd',
+        title: 'Memories - MERN App',
+        liveUrl: 'https://memories-app-bd.netlify.app',
+        imgUrlEndPoint: 'kcJLhNd/memories-app-bd',
         tag: ['material-ui', 'react'],
     },
 ];

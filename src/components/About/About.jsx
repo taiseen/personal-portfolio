@@ -27,7 +27,7 @@ const About = () => {
                     <a href={images.cv} className="btn">
                         Download CV <i className="fas fa-download"></i>
                     </a>
-                    <a href='https://cv-of-taiseen.netlify.app' className="btn" target='_blank' rel="noreferrer">
+                    <a href='https://taiseen-cv.netlify.app' className="btn" target='_blank' rel="noreferrer">
                         Live CV <i className="fas fa-eye"></i>
                     </a>
                 </div>
