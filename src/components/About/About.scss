@@ -62,7 +62,8 @@
             }
 
             .award {
-                position: relative;
+                position : relative;
+                animation: pulsing 3s ease-out infinite;
 
                 &:hover {
 
@@ -91,5 +92,15 @@
                 }
             }
         }
+    }
+}
+
+@keyframes pulsing {
+    0% {
+        box-shadow: 0 0 0 0 var(--yellow);
+    }
+
+    75% {
+        box-shadow: 0 0 0 25px rgba(255, 82, 82, 0);
     }
 }
