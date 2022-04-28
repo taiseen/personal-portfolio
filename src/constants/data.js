@@ -152,6 +152,13 @@ const portfolio = [
         imgUrlEndPoint: 'kcJLhNd/memories-app-bd',
         tag: ['material-ui', 'react'],
     },
+    {
+        id: 12,
+        title: 'E-com Cart - Next-Js',
+        liveUrl: 'https://next-e-com.vercel.app',
+        imgUrlEndPoint: 'THnD3Dx/next-js',
+        tag: ['css', 'next-js'],
+    },
 ];
 
 
