@@ -159,6 +159,13 @@ const portfolio = [
         imgUrlEndPoint: 'THnD3Dx/next-js',
         tag: ['css', 'next-js'],
     },
+    {
+        id: 13,
+        title: 'Real-Estate - Next-Js',
+        liveUrl: 'https://real-estate-uae-app.vercel.app',
+        imgUrlEndPoint: 'bb6RjHF/Next-Real-Estate',
+        tag: ['chakra-ui', 'next-js'],
+    },
 ];
 
 

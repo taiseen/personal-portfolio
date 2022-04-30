@@ -39,6 +39,7 @@ const Portfolio = () => {
     { context: 'tailwind + react' },
     { context: 'material-ui + react' },
     { context: 'css + next-js' },
+    { context: 'chakra-ui + next-js' },
   ]
 
 
