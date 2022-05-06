@@ -143,7 +143,7 @@ const portfolio = [
         title: 'Add Location - React',
         liveUrl: 'https://add-location.netlify.app',
         imgUrlEndPoint: '7V9CkjS/add-Location',
-        tag: ['tailwind', 'react'],
+        tag: ['tailwind-css', 'react'],
     },
     {
         id: 11,
@@ -165,6 +165,13 @@ const portfolio = [
         liveUrl: 'https://real-estate-uae-app.vercel.app',
         imgUrlEndPoint: 'bb6RjHF/Next-Real-Estate',
         tag: ['chakra-ui', 'next-js'],
+    },
+    {
+        id: 14,
+        title: 'Blog App - Next-Js',
+        liveUrl: 'https://blogs-demo.vercel.app',
+        imgUrlEndPoint: 'g7DGgmc/Blog-App',
+        tag: ['tailwind-css', 'next-js'],
     },
 ];
 
