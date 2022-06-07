@@ -30,10 +30,10 @@ const Navigation = () => {
     return (
         <nav className="navbar" ref={navLinks}>
             <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
             {/* <a href="#skills">skills</a> */}
-            <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
     )

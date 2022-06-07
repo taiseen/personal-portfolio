@@ -57,9 +57,9 @@ function App() {
       <Header />
       <main >
         <Home />
+        <Portfolio />
         <About />
         <Education />
-        <Portfolio />
         <Contact />
       </main>
     </>
