@@ -194,6 +194,13 @@ const portfolio = [
         imgUrlEndPoint: 'gRXYq5y/user-profile',
         tag: ['react', 'node-js'],
     },
+    {
+        id: 18,
+        title: 'Demo UI Profile - React + Tailwind-CSS',
+        liveUrl: 'https://taiseen-tailwind.netlify.app',
+        imgUrlEndPoint: 'TcNKpFY/taiseen-tailwind',
+        tag: ['tailwind-css', 'react'],
+    },
 ];
 
 
