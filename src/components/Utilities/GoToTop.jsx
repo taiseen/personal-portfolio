@@ -25,9 +25,7 @@ const GoToTop = () => {
     }
 
 
-    useEffect(() => {
-        window.addEventListener("scroll", goToTopFunction);
-    }, [])
+    useEffect(() => window.addEventListener("scroll", goToTopFunction), []);
 
 
     return (

@@ -39,7 +39,7 @@ const About = () => {
                     </div>
 
                     <div className="box">
-                        <span>12+</span>
+                        <span>{data.portfolio.length}+</span>
                         <h3>Project Completed</h3>
                     </div>
 

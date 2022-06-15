@@ -1,4 +1,5 @@
 // import images from './images';
+import { v4 as uuidv4 } from 'uuid';
 
 const mySpeech = ` I'm very curious & passionate about web technology & also a dedicated learner of new technology. By
 learning new knowledge I try to serve other peoples that how can I add value in their life through
@@ -73,23 +74,22 @@ const skills = [
 
 
 const portfolio = [
-
     {
-        id: 1,
+        id: uuidv4(),
         title: 'Car - Max Wheels',
         liveUrl: 'https://car-website-demo.netlify.app',
         imgUrlEndPoint: '1LzZJbq/Car-Max-Wheels',
         tag: ['sass', 'js'],
     },
     {
-        id: 2,
+        id: uuidv4(),
         title: 'Travel Agency - Dark Mode',
         liveUrl: 'https://travel-agency-sample.netlify.app',
         imgUrlEndPoint: '1L5453k/Travel-Agency-Dark-Mode',
         tag: ['sass', 'js'],
     },
     {
-        id: 3,
+        id: uuidv4(),
         title: 'Construction',
         liveUrl: 'https://construction-demo.netlify.app',
         imgUrlEndPoint: 'BTFJcMC/Construction',
@@ -97,110 +97,124 @@ const portfolio = [
 
     },
     {
-        id: 4,
+        id: uuidv4(),
         title: 'Book\'s Store',
         liveUrl: 'https://book-store-sample.netlify.app',
         imgUrlEndPoint: 'CVgfYrN/Book-s-Store',
         tag: ['sass', 'js'],
     },
     {
-        id: 5,
+        id: uuidv4(),
         title: 'Grocery Store',
         liveUrl: 'https://grocery-demo.netlify.app',
         imgUrlEndPoint: '0nPmQFf/Grocery-Store',
         tag: ['sass', 'js'],
     },
     {
-        id: 6,
+        id: uuidv4(),
         title: 'Coffee Shop - v3',
         liveUrl: 'https://light-coffee.netlify.app',
         imgUrlEndPoint: '3px09kG/Coffee-Shop-v3',
         tag: ['sass', 'js'],
     },
     {
-        id: 7,
+        id: uuidv4(),
         title: 'Demo of SASS + React UI',
         liveUrl: 'https://demo-react-sass.netlify.app',
         imgUrlEndPoint: 'gDsJFjQ/Demo-of-React-SASS',
         tag: ['sass', 'react'],
     },
     {
-        id: 8,
+        id: uuidv4(),
         title: 'Grocery Store - React UI',
         liveUrl: 'https://grocery-store-react-site.netlify.app',
         imgUrlEndPoint: 'vYPN4TS/Grocery-Store-React',
         tag: ['sass', 'react'],
     },
     {
-        id: 9,
+        id: uuidv4(),
         title: 'Mini Shopping Cart - React',
         liveUrl: 'https://mini-shopping-cart-demo.netlify.app',
         imgUrlEndPoint: 'CtKBR6d/Mini-Shopping-Cart',
         tag: ['sass', 'react'],
     },
     {
-        id: 10,
+        id: uuidv4(),
+        title: 'Employ CRUD Operation - React + CSS',
+        liveUrl: 'https://taiseen.github.io/employ-crud',
+        imgUrlEndPoint: 'wJryngx/Employ-CRUD',
+        tag: ['css', 'react'],
+    },
+    {
+        id: uuidv4(),
         title: 'Add Location - React',
         liveUrl: 'https://add-location.netlify.app',
         imgUrlEndPoint: '7V9CkjS/add-Location',
         tag: ['tailwind-css', 'react'],
     },
     {
-        id: 11,
+        id: uuidv4(),
         title: 'Memories - MERN App',
         liveUrl: 'https://memories-app-bd.netlify.app',
         imgUrlEndPoint: 'kcJLhNd/memories-app-bd',
         tag: ['material-ui', 'react'],
     },
     {
-        id: 12,
+        id: uuidv4(),
         title: 'E-com Cart - Next-Js',
         liveUrl: 'https://next-e-com.vercel.app',
         imgUrlEndPoint: 'THnD3Dx/next-js',
         tag: ['css', 'next-js'],
     },
     {
-        id: 13,
+        id: uuidv4(),
         title: 'Real-Estate - Next-Js',
         liveUrl: 'https://real-estate-uae-app.vercel.app',
         imgUrlEndPoint: 'bb6RjHF/Next-Real-Estate',
         tag: ['chakra-ui', 'next-js'],
     },
     {
-        id: 14,
+        id: uuidv4(),
         title: 'Blog App - Next-Js',
         liveUrl: 'https://blogs-demo.vercel.app',
         imgUrlEndPoint: 'g7DGgmc/Blog-App',
         tag: ['tailwind-css', 'next-js'],
     },
     {
-        id: 15,
+        id: uuidv4(),
         title: 'Admin DashBoard - React',
         liveUrl: 'https://admin-dashboard-demo.netlify.app',
         imgUrlEndPoint: 'p4JJHCF/Admin-Dash-Board',
         tag: ['tailwind-css', 'react'],
     },
     {
-        id: 16,
+        id: uuidv4(),
         title: 'Chat App - React + NodeJs',
         liveUrl: 'https://chat-app-bd.netlify.app',
         imgUrlEndPoint: 'wdgJLdf/Chat-App',
         tag: ['react', 'node-js'],
     },
     {
-        id: 17,
+        id: uuidv4(),
         title: 'User Profile - React + NodeJs',
         liveUrl: 'https://user-login-sys.netlify.app',
         imgUrlEndPoint: 'gRXYq5y/user-profile',
         tag: ['react', 'node-js'],
     },
     {
-        id: 18,
+        id: uuidv4(),
         title: 'Demo UI Profile - React + Tailwind-CSS',
         liveUrl: 'https://taiseen-tailwind.netlify.app',
         imgUrlEndPoint: 'TcNKpFY/taiseen-tailwind',
         tag: ['tailwind-css', 'react'],
     },
+    // {
+    //     id: uuidv4(),
+    //     title: 'Drag-&-Drop ToDo - React + CSS',
+    //     liveUrl: 'https://taiseen.github.io/to-do-drag-n-drop-ts',
+    //     imgUrlEndPoint: 'N9jtKPN/Drag-Drop-To-Do',
+    //     tag: ['css', 'react'],
+    // },
 ];
 
 

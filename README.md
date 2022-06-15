@@ -16,6 +16,7 @@
 * yarn add react-typed
 * yarn add react-router-dom
 * yarn add aos
+* yarn add uuid
 
 ## Development + Production CMD
 + yarn start

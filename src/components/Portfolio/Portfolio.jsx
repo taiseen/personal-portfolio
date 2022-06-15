@@ -35,6 +35,7 @@ const Portfolio = () => {
   const category = [
     { context: 'all' },
     { context: 'sass + js' },
+    { context: 'css + react' },
     { context: 'sass + react' },
     { context: 'tailwind-css + react' },
     { context: 'material-ui + react' },

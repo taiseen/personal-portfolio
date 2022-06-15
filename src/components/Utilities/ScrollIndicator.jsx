@@ -37,16 +37,14 @@ const ScrollIndicator = () => {
   }
 
 
-  useEffect(() => {
-    window.addEventListener("scroll", scrollProgress);
-  }, [])
+  useEffect(() => window.addEventListener("scroll", scrollProgress), []);
 
 
   return (
 
     <div style={progressBarWidth}>
       <span style={progressBarNumber}>
-        {`${parseFloat(scroll).toFixed(0)}%`}
+        {/* {`${parseFloat(scroll).toFixed(0)}%`} */}
       </span>
     </div>
 
