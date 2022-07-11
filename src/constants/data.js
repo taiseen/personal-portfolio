@@ -215,13 +215,13 @@ const portfolio = [
         imgUrlEndPoint: 'GQtys6c/Burger-UI',
         tag: ['tailwind-css', 'react'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Drag-&-Drop ToDo - React + CSS',
-    //     liveUrl: 'https://taiseen.github.io/to-do-drag-n-drop-ts',
-    //     imgUrlEndPoint: 'N9jtKPN/Drag-Drop-To-Do',
-    //     tag: ['css', 'react'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'Drag-&-Drop ToDo - React + CSS',
+        liveUrl: 'https://taiseen.github.io/to-do-drag-n-drop-ts',
+        imgUrlEndPoint: 'N9jtKPN/Drag-Drop-To-Do',
+        tag: ['css', 'react'],
+    },
 ];
 
 
