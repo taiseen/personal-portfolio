@@ -44,33 +44,33 @@ const education = [
 ];
 
 
-const skills = [
-    {
-        id: 1,
-        name: 'Logic pro',
-        percent: '90',
-    },
-    {
-        id: 2,
-        name: 'Pro tools',
-        percent: '80',
-    },
-    {
-        id: 3,
-        name: 'FL studio',
-        percent: '70',
-    },
-    {
-        id: 4,
-        name: 'Cubase',
-        percent: '60',
-    },
-    {
-        id: 5,
-        name: 'Nuendo',
-        percent: '60',
-    },
-];
+// const skills = [
+//     {
+//         id: 1,
+//         name: 'Logic pro',
+//         percent: '90',
+//     },
+//     {
+//         id: 2,
+//         name: 'Pro tools',
+//         percent: '80',
+//     },
+//     {
+//         id: 3,
+//         name: 'FL studio',
+//         percent: '70',
+//     },
+//     {
+//         id: 4,
+//         name: 'Cubase',
+//         percent: '60',
+//     },
+//     {
+//         id: 5,
+//         name: 'Nuendo',
+//         percent: '60',
+//     },
+// ];
 
 
 const portfolio = [
@@ -222,13 +222,20 @@ const portfolio = [
         imgUrlEndPoint: 'N9jtKPN/Drag-Drop-To-Do',
         tag: ['css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Mini E-com - React + Tailwind-CSS',
+        liveUrl: 'https://mini-e-com.netlify.app',
+        imgUrlEndPoint: 'y40bJTT/Mni-E-com',
+        tag: ['tailwind-css', 'react'],
+    },
 ];
 
 
 const data = {
     userInfo,
     education,
-    skills,
+    // skills,
     portfolio,
     mySpeech,
 }
