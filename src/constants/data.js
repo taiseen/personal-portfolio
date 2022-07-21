@@ -229,6 +229,13 @@ const portfolio = [
         imgUrlEndPoint: 'y40bJTT/Mni-E-com',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Landing Page - React + Tailwind-CSS',
+        liveUrl: 'https://sledgar.netlify.app',
+        imgUrlEndPoint: '8Nc3nLZ/Slideger',
+        tag: ['tailwind-css', 'react'],
+    },
 ];
 
 
