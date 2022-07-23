@@ -236,6 +236,13 @@ const portfolio = [
         imgUrlEndPoint: '8Nc3nLZ/Slideger',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'KanBan Drag-&-Drop - React + Tailwind',
+        liveUrl: 'https://kanban-bd.netlify.app',
+        imgUrlEndPoint: '5Kxn747/KanBan.png',
+        tag: ['tailwind-css', 'react'],
+    },
 ];
 
 
