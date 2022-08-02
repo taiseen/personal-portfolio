@@ -44,7 +44,7 @@ const About = () => {
                     </div>
 
                     <div className="box">
-                        <span>3+</span>
+                        <span>8+</span>
                         <h3>Happy Client</h3>
                     </div>
 

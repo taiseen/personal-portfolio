@@ -203,20 +203,6 @@ const portfolio = [
     },
     {
         id: uuidv4(),
-        title: 'Demo UI Profile - React + Tailwind-CSS',
-        liveUrl: 'https://taiseen-tailwind.netlify.app',
-        imgUrlEndPoint: 'TcNKpFY/taiseen-tailwind',
-        tag: ['tailwind-css', 'react'],
-    },
-    {
-        id: uuidv4(),
-        title: 'Burger UI - React + Tailwind-CSS',
-        liveUrl: 'https://burger-ui.netlify.app',
-        imgUrlEndPoint: 'GQtys6c/Burger-UI',
-        tag: ['tailwind-css', 'react'],
-    },
-    {
-        id: uuidv4(),
         title: 'Drag-&-Drop ToDo - React + CSS',
         liveUrl: 'https://taiseen.github.io/to-do-drag-n-drop-ts',
         imgUrlEndPoint: 'N9jtKPN/Drag-Drop-To-Do',
@@ -231,6 +217,27 @@ const portfolio = [
     },
     {
         id: uuidv4(),
+        title: 'KanBan Drag-&-Drop - React + Tailwind',
+        liveUrl: 'https://kanban-bd.netlify.app',
+        imgUrlEndPoint: '5Kxn747/KanBan.png',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
+        title: 'Demo UI Profile - React + Tailwind-CSS',
+        liveUrl: 'https://taiseen-tailwind.netlify.app',
+        imgUrlEndPoint: 'TcNKpFY/taiseen-tailwind',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
+        title: 'Burger UI - React + Tailwind-CSS',
+        liveUrl: 'https://burger-ui.netlify.app',
+        imgUrlEndPoint: 'GQtys6c/Burger-UI',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
         title: 'Landing Page - React + Tailwind-CSS',
         liveUrl: 'https://sledgar.netlify.app',
         imgUrlEndPoint: '8Nc3nLZ/Slideger',
@@ -238,11 +245,18 @@ const portfolio = [
     },
     {
         id: uuidv4(),
-        title: 'KanBan Drag-&-Drop - React + Tailwind',
-        liveUrl: 'https://kanban-bd.netlify.app',
-        imgUrlEndPoint: '5Kxn747/KanBan.png',
+        title: 'VR Landing Page - React + Tailwind',
+        liveUrl: 'https://vr-page.netlify.app',
+        imgUrlEndPoint: 'SB1CL77/VR-Landing-Page',
         tag: ['tailwind-css', 'react'],
     },
+    // {
+    //     id: uuidv4(),
+    //     title: 'Resume Builder - React + Tailwind',
+    //     liveUrl: 'https://resumes-builder.netlify.app',
+    //     imgUrlEndPoint: '00000000000000000/ResumeBuilder.png',
+    //     tag: ['tailwind-css', 'react'],
+    // },
 ];
 
 
