@@ -257,13 +257,13 @@ const portfolio = [
         imgUrlEndPoint: 'qkCh9Kt/Blog',
         tag: ['tailwind-css', 'next-js'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Employee CRUD - Nextjs + Tailwind',
-    //     liveUrl: 'https://next-crud-employ.vercel.app',
-    //     imgUrlEndPoint: 'JjSHKSJ/Employee-CURD',
-    //     tag: ['tailwind-css', 'next-js'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'Employee CRUD - Nextjs + Tailwind',
+        liveUrl: 'https://next-crud-employ.vercel.app',
+        imgUrlEndPoint: 'JjSHKSJ/Employee-CURD',
+        tag: ['tailwind-css', 'next-js'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
