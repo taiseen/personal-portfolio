@@ -264,6 +264,13 @@ const portfolio = [
         imgUrlEndPoint: 'JjSHKSJ/Employee-CURD',
         tag: ['tailwind-css', 'next-js'],
     },
+    {
+        id: uuidv4(),
+        title: 'Crypto Currency LP - React + Tailwind',
+        liveUrl: 'http://crypto-lp.netlify.app',
+        imgUrlEndPoint: 'LCHY4T6/Crypto-Currency',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
