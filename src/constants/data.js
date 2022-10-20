@@ -271,6 +271,13 @@ const portfolio = [
         imgUrlEndPoint: 'LCHY4T6/Crypto-Currency',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Static 2d Paint App - React + Tailwind',
+        liveUrl: 'https://paint-app-react.netlify.app',
+        imgUrlEndPoint: 'FX3Mztr/Paint-App',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
