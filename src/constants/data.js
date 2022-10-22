@@ -277,6 +277,13 @@ const portfolio = [
         liveUrl: 'https://paint-app-react.netlify.app',
         imgUrlEndPoint: 'FX3Mztr/Paint-App',
         tag: ['tailwind-css', 'react'],
+    },    
+    {
+        id: uuidv4(),
+        title: 'Paint React Fabric - React + Tailwind',
+        liveUrl: 'https://react-fabric-js.netlify.app',
+        imgUrlEndPoint: 'h980rWw/Paint-React-Fabric',
+        tag: ['tailwind-css', 'react'],
     },
     // {
     //     id: uuidv4(),
