@@ -277,7 +277,7 @@ const portfolio = [
         liveUrl: 'https://paint-app-react.netlify.app',
         imgUrlEndPoint: 'FX3Mztr/Paint-App',
         tag: ['tailwind-css', 'react'],
-    },    
+    },
     {
         id: uuidv4(),
         title: 'Paint React Fabric - React + Tailwind',
@@ -285,6 +285,20 @@ const portfolio = [
         imgUrlEndPoint: 'h980rWw/Paint-React-Fabric',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Payment Method - React + Tailwind',
+        liveUrl: 'https://payment-lp.netlify.app',
+        imgUrlEndPoint: 'QYvmsq9/crypto-web-3-bca',
+        tag: ['tailwind-css', 'react'],
+    },
+    // {
+    //     id: uuidv4(),
+    //     title: 'Ethereum Trnx - React + Tailwind',
+    //     liveUrl: 'https://crypto-bca.netlify.app',
+    //     imgUrlEndPoint: 'ZKYZjC8/Ethereum-Trnx',
+    //     tag: ['tailwind-css', 'react'],
+    // },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
