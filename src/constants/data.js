@@ -264,6 +264,13 @@ const portfolio = [
         imgUrlEndPoint: 'JjSHKSJ/Employee-CURD',
         tag: ['tailwind-css', 'next-js'],
     },
+    // {
+    //     id: uuidv4(),
+    //     title: 'Space Clone - React + Tailwind',
+    //     liveUrl: 'https://space.makereal.click',
+    //     imgUrlEndPoint: 'PgznhHF/Space-Clone',
+    //     tag: ['tailwind-css', 'react'],
+    // },
     {
         id: uuidv4(),
         title: 'Crypto Currency LP - React + Tailwind',
@@ -292,13 +299,14 @@ const portfolio = [
         imgUrlEndPoint: 'QYvmsq9/crypto-web-3-bca',
         tag: ['tailwind-css', 'react'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Ethereum Trnx - React + Tailwind',
-    //     liveUrl: 'https://crypto-bca.netlify.app',
-    //     imgUrlEndPoint: 'ZKYZjC8/Ethereum-Trnx',
-    //     tag: ['tailwind-css', 'react'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'Ethereum Trnx - React + Tailwind',
+        liveUrl: 'https://crypto-bca.netlify.app',
+        imgUrlEndPoint: 'ZKYZjC8/Ethereum-Trnx',
+        tag: ['tailwind-css', 'react'],
+    },
+
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
