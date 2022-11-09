@@ -264,13 +264,13 @@ const portfolio = [
         imgUrlEndPoint: 'JjSHKSJ/Employee-CURD',
         tag: ['tailwind-css', 'next-js'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Space Clone - React + Tailwind',
-    //     liveUrl: 'https://space.makereal.click',
-    //     imgUrlEndPoint: 'PgznhHF/Space-Clone',
-    //     tag: ['tailwind-css', 'react'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'Space Clone - React + Tailwind',
+        liveUrl: 'https://space.makereal.click',
+        imgUrlEndPoint: 'PgznhHF/Space-Clone',
+        tag: ['tailwind-css', 'react'],
+    },
     {
         id: uuidv4(),
         title: 'Crypto Currency LP - React + Tailwind',
