@@ -306,7 +306,13 @@ const portfolio = [
         imgUrlEndPoint: 'ZKYZjC8/Ethereum-Trnx',
         tag: ['tailwind-css', 'react'],
     },
-
+    {
+        id: uuidv4(),
+        title: 'Admin-Dashboard - React + Material-ui',
+        liveUrl: 'https://react-adb-mui.netlify.app',
+        imgUrlEndPoint: 's1ZN9Bp/Admin-Dashboard',
+        tag: ['material-ui', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
