@@ -313,6 +313,13 @@ const portfolio = [
         imgUrlEndPoint: 's1ZN9Bp/Admin-Dashboard',
         tag: ['material-ui', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Mini-Social-Media-MERN - React + MUI',
+        liveUrl: 'https://mini-social-media-bd.netlify.app',
+        imgUrlEndPoint: 'bHHpV7h/mini-social-media-mern-app',
+        tag: ['material-ui', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
