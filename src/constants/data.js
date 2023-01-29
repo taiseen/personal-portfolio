@@ -320,6 +320,14 @@ const portfolio = [
         imgUrlEndPoint: 'bHHpV7h/mini-social-media-mern-app',
         tag: ['material-ui', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Fitness LP - React + Tailwind',
+        liveUrl: 'https://fitness-lp.pages.dev',
+        imgUrlEndPoint: 'mDwLsB0/fitness-lp',
+        tag: ['tailwind-css', 'react'],
+    },
+
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
