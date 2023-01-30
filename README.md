@@ -1,27 +1,16 @@
 > 03-May-2021 <br/>
 > 11-Feb-2022 ==> convert into `sass` <br/>
-> 04-Mar-2022 ==> convert into `react`
-> 31-Jan-2023 ==> convert from `react` to `vite`
+> 04-Mar-2022 ==> convert into `react` <br/>
+> 31-Jan-2023 ==> migrate from `react` to `vite`
 
 # Personal Portfolio - [Live Link](https://taiseen.netlify.app)
 
-## Using Tools & Language
-* React - jsx
-* SASS 
-* cdn - [AOS](https://cdnjs.com/libraries/aos) ( v-2.3.4 ) - CSS + JS 
-* cdn - [Font-awesome](https://cdnjs.com/libraries/font-awesome) ( v-5.15.4 ) - CSS 
-
-## Installed Packages
+## Installed Packages...
 * yarn create react-app 
-* yarn add sass
-* yarn add react-typed
-* yarn add react-router-dom
 * yarn add aos
+* yarn add sass
 * yarn add uuid
-
-## Development + Production CMD
-+ yarn start
-+ yarn build
+* yarn add react-typed
 
 <br/>
 
