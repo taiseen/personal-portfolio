@@ -327,7 +327,13 @@ const portfolio = [
         imgUrlEndPoint: 'mDwLsB0/fitness-lp',
         tag: ['tailwind-css', 'react'],
     },
-
+    {
+        id: uuidv4(),
+        title: 'Furniture - React + Tailwind',
+        liveUrl: 'https://furniture-lp.netlify.app',
+        imgUrlEndPoint: 'x7WZfSv/furniture-site',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
