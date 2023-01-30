@@ -1,6 +1,7 @@
-03-May-2021 <br/>
-11-Feb-2022 ==> convert into `sass` <br/>
-04-Mar-2022 ==> convert into `react`
+> 03-May-2021 <br/>
+> 11-Feb-2022 ==> convert into `sass` <br/>
+> 04-Mar-2022 ==> convert into `react`
+> 31-Jan-2023 ==> convert from `react` to `vite`
 
 # Personal Portfolio - [Live Link](https://taiseen.netlify.app)
 
