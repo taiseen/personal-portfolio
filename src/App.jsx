@@ -9,6 +9,7 @@ function App() {
 
   const consoleText = `
     background: yellow; 
+    color: #444; 
     font-size: 20px
   `;
 
@@ -53,16 +54,19 @@ function App() {
 
 
   return (
-    <>
+    <main>
+
       <Header />
-      <main >
+
+      <div>
         <Home />
         <Portfolio />
         <About />
         <Education />
         <Contact />
-      </main>
-    </>
+      </div>
+
+    </main>
   );
 }
 

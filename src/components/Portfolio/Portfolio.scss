@@ -45,6 +45,16 @@
                 background-size    : cover;
             }
 
+            .lazy-background-image {
+                background-image   : "";
+                background-size    : cover;
+                background-position: center;
+            }
+
+            .lazy-background-image.loaded {
+                background-image: url("https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif");
+            }
+
             .browser {
                 position        : sticky;
                 z-index         : 2;

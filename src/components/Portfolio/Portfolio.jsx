@@ -1,32 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { data } from '../../constants'
 import './Portfolio.scss'
-
-const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint, tag } }) => (
-
-  <a
-    href={liveUrl}
-    title={title}
-    className="image"
-    target="_blank"
-    rel="noreferrer"
-    data-aos={"zoom-in"}
-  >
-
-    <div className="browser">
-      <p className="title">{title}</p>
-      <div className="dot"></div>
-      <div className="dot"></div>
-      <div className="dot"></div>
-    </div>
-
-    {/* <img src={`https://i.ibb.co/${imgUrlEndPoint}.jpg`} alt={title} /> */}
-    <span style={{backgroundImage: `url("https://i.ibb.co/${imgUrlEndPoint}.jpg")`}}>
-     
-    </span>
-
-  </a>
-)
 
 const Portfolio = () => {
 
@@ -84,3 +58,47 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
+
+const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint, tag } }) => {
+
+  const backgroundImg = `https://i.ibb.co/${imgUrlEndPoint}.jpg`;
+
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    const image = new Image();
+    image.src = backgroundImg;
+    image.onload = () => {
+      setLoaded(true);
+    };
+  }, [backgroundImg]);
+
+  return (
+    <a
+      href={liveUrl}
+      title={title}
+      className="image"
+      target="_blank"
+      rel="noreferrer"
+      data-aos={"zoom-in"}
+    >
+
+      <div className="browser">
+        <p className="title">{title}</p>
+        <div className="dot"></div>
+        <div className="dot"></div>
+        <div className="dot"></div>
+      </div>
+
+      {/* <img src={`https://i.ibb.co/${imgUrlEndPoint}.jpg`} alt={title} /> */}
+      <span
+        className={`lazy-background-image ${loaded ? 'loaded' : ''}`}
+        style={{ backgroundImage: `url(${loaded ? backgroundImg : ''})` }}
+      // style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+
+      </span>
+
+    </a>
+  )
+}
