@@ -334,6 +334,13 @@ const portfolio = [
         imgUrlEndPoint: 'x7WZfSv/furniture-site',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Real-estate - React + Tailwind',
+        liveUrl: 'https://realestate-lp.netlify.app/',
+        imgUrlEndPoint: 'yy6YtQM/real-estate',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
