@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { data } from '../../constants'
+import portfolioDB from '../../db/portfolioDB'
 import './Portfolio.scss'
 
 const Portfolio = () => {
@@ -43,10 +43,10 @@ const Portfolio = () => {
       <div className="work-container">
         {
           activeClick === 'all'
-            ? data.portfolio.slice(0).reverse().map(info => (
+            ? portfolioDB.slice(0).reverse().map(info => (
               <WorkBox key={info.id} info={info} />
             ))
-            : data.portfolio.map(info =>
+            : portfolioDB.map(info =>
               (info.tag[0] === activeClick.split('+')[0].trim() &&
                 info.tag[1] === activeClick.split('+')[1].trim())
               && <WorkBox key={info.id} info={info} />

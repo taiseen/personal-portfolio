@@ -1,5 +1,6 @@
-import { useRef } from 'react'
+import portfolioDB from '../../db/portfolioDB';
 import { data, images } from '../../constants';
+import { useRef } from 'react'
 import './About.scss';
 
 const About = () => {
@@ -39,7 +40,7 @@ const About = () => {
                     </div>
 
                     <div className="box">
-                        <span>{data.portfolio.length}+</span>
+                        <span>{portfolioDB.length}+</span>
                         <h3>Project Completed</h3>
                     </div>
 
@@ -51,7 +52,7 @@ const About = () => {
                     <div className="box award" onMouseOver={showAward}>
                         <span>1+</span>
                         <h3>Certification</h3>
-                        <img alt="award-img" className="hoverImage" ref={imageShow} />
+                        <img alt="award-img" className="hoverImage" ref={imageShow} loading='lazy' />
                     </div>
                 </div>
 

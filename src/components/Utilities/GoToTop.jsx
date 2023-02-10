@@ -37,6 +37,7 @@ const GoToTop = () => {
                 style={{ width: '100%' }}
                 src={images.up}
                 alt="up-arrow"
+                loading='lazy'
             />
         </a>
     )

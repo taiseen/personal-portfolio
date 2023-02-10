@@ -1,8 +1,8 @@
+import ScrollIndicator from '../Utilities/ScrollIndicator';
+import GoToTop from '../Utilities/GoToTop';
+import Navigation from './Navigation';
 import { useEffect, useRef } from 'react'
 import { images } from '../../constants';
-import GoToTop from '../Utilities/GoToTop';
-import ScrollIndicator from '../Utilities/ScrollIndicator';
-import Navigation from './Navigation';
 import './Header.scss';
 
 const Header = () => {
@@ -33,10 +33,10 @@ const Header = () => {
     return (
         <header id="header" ref={menu}>
 
-            <div className="user">
-                <img src={images.me} alt="shaikh-shaikat" />
+            <div className="user" title='Taiseen - Frontend Developer '>
+                <img src={images.me} alt="taiseen" loading='lazy' />
                 <h3 className="name">Taiseen</h3>
-                <p className="post"> 🎨 Front-end Developer 😎</p>
+                <p className="post"> 🎨 Frontend Developer 😎</p>
             </div>
 
             <Navigation />
