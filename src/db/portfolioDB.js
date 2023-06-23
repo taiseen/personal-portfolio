@@ -268,6 +268,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'yy6YtQM/real-estate',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Hotel Booking - React + Tailwind',
+        liveUrl: 'https://hotel-booking-sites.netlify.app',
+        imgUrlEndPoint: 'QNggfdS/hotel-booking-sites',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
