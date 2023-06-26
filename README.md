@@ -29,6 +29,7 @@ What challenges did I face & How did I overcome them?
 - CSS + JS minified version
 - Toggle Theme Colors
 - Typing Animation Js
+- Project Migration
 - Scroll Indicator
 - Responsive Menu
 - Go To Top
