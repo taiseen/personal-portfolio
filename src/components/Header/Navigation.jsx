@@ -18,8 +18,8 @@ const Navigation = () => {
 
                 if (top >= offset && top < offset + height) {
 
-                    navLinks.current.childNodes.forEach(link => {
-                        link.classList.remove('active');
+                    navLinks?.current?.childNodes.forEach(link => {
+                        link.classList?.remove('active');
                         document.querySelector('header .navbar a[href*=' + id + ']').classList.add('active');
                     });
                 };

@@ -275,6 +275,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'QNggfdS/hotel-booking-sites',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Canvas Game - HTML + JS',
+        liveUrl: 'https://seahorse-2d.netlify.app',
+        imgUrlEndPoint: 'h1b5xGm/Sea-Horse',
+        tag: ['html', 'js'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind',
