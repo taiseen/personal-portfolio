@@ -50,7 +50,7 @@ const Portfolio = () => {
               (info.tag[0] === activeClick.split('+')[0].trim() &&
                 info.tag[1] === activeClick.split('+')[1].trim())
               && <WorkBox key={info.id} info={info} />
-            )
+            ).reverse()
         }
       </div>
     </section>
