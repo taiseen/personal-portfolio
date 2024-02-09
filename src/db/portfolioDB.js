@@ -289,16 +289,14 @@ const portfolioDB = [
         imgUrlEndPoint: 'gRV96Fx/lws-rnext-assignment-2',
         tag: ['tailwind-css', 'react'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Improved Tasker - React + Tailwind-CSS',
-    //     liveUrl: 'https://lws-rnext-assignment-3-taiseen.vercel.app',
-    //     imgUrlEndPoint: 'pZZ5Km3/lws-rnext-assignment-3',
-    //     tag: ['tailwind-css', 'react'],
-    // },
-
+    {
+        id: uuidv4(),
+        title: 'Improved Tasker - React + Tailwind-CSS',
+        liveUrl: 'https://lws-rnext-assignment-3-taiseen.vercel.app',
+        imgUrlEndPoint: 'pZZ5Km3/lws-rnext-assignment-3',
+        tag: ['tailwind-css', 'react'],
+    },
     // https://cine-rental.netlify.app/
-
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
