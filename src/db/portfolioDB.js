@@ -296,7 +296,16 @@ const portfolioDB = [
         imgUrlEndPoint: 'pZZ5Km3/lws-rnext-assignment-3',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Weather-Dashboard - React + Tailwind-CSS',
+        liveUrl: 'https://real-time-weather-p4.netlify.app',
+        imgUrlEndPoint: 'fCv2V43/Project-4-Real-Time-Weather-Dashboard',
+        tag: ['tailwind-css', 'react'],
+    },
+
     // https://cine-rental.netlify.app/
+
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
