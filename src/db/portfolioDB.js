@@ -303,8 +303,38 @@ const portfolioDB = [
         imgUrlEndPoint: 'fCv2V43/Project-4-Real-Time-Weather-Dashboard',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'News Feeder - React + Tailwind-CSS',
+        liveUrl: 'https://lws-rnext-assignment-4-taiseen.vercel.app',
+        imgUrlEndPoint: 'd68vy5G/lws-rnext-assignment-4',
+        tag: ['tailwind-css', 'react'],
+    },
 
-    // https://cine-rental.netlify.app/
+    // {
+    //     id: uuidv4(),
+    //     title: '3-Js-Profile - React + Tailwind-CSS',
+    //     liveUrl: 'https://p2-site-3js.netlify.app',
+    //     imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
+    //     tag: ['tailwind-css', 'react'],
+    // },
+
+    // {
+    //     id: uuidv4(),
+    //     title: '3-Js-Taiseen - React + Tailwind-CSS',
+    //     liveUrl: 'https://p2-sites.netlify.app',
+    //     imgUrlEndPoint: 'mbqbsK1/Three-Js-Taiseen',
+    //     tag: ['tailwind-css', 'react'],
+    // },
+
+    // {
+    //     id: uuidv4(),
+    //     title: 'Cine Rental - React + Tailwind-CSS',
+    //     liveUrl: 'https://cine-rental.netlify.app',
+    //     imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
+    //     tag: ['tailwind-css', 'react'],
+    // },
+
 
     // {
     //     id: uuidv4(),
