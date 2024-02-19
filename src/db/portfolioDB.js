@@ -310,14 +310,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'd68vy5G/lws-rnext-assignment-4',
         tag: ['tailwind-css', 'react'],
     },
-
-    // {
-    //     id: uuidv4(),
-    //     title: '3-Js-Profile - React + Tailwind-CSS',
-    //     liveUrl: 'https://p2-site-3js.netlify.app',
-    //     imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
-    //     tag: ['tailwind-css', 'react'],
-    // },
+    {
+        id: uuidv4(),
+        title: '3-Js-Profile - React + Tailwind-CSS',
+        liveUrl: 'https://p2-site-3js.netlify.app',
+        imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
+        tag: ['tailwind-css', 'react'],
+    },
 
     // {
     //     id: uuidv4(),
@@ -331,10 +330,9 @@ const portfolioDB = [
     //     id: uuidv4(),
     //     title: 'Cine Rental - React + Tailwind-CSS',
     //     liveUrl: 'https://cine-rental.netlify.app',
-    //     imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
+    //     imgUrlEndPoint: '0000000000000000000000000',
     //     tag: ['tailwind-css', 'react'],
     // },
-
 
     // {
     //     id: uuidv4(),
