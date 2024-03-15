@@ -249,6 +249,20 @@ const portfolioDB = [
     },
     {
         id: uuidv4(),
+        title: '3-Js-Profile - React + Tailwind-CSS',
+        liveUrl: 'https://p2-site-3js.netlify.app',
+        imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
+        title: '3-Js-Taiseen - React + Tailwind-CSS',
+        liveUrl: 'https://p2-sites.netlify.app',
+        imgUrlEndPoint: 'mbqbsK1/Three-Js-Taiseen',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
         title: 'Fitness LP - React + Tailwind-CSS',
         liveUrl: 'https://fitness-lp.pages.dev',
         imgUrlEndPoint: 'mDwLsB0/fitness-lp',
@@ -310,22 +324,6 @@ const portfolioDB = [
         imgUrlEndPoint: 'd68vy5G/lws-rnext-assignment-4',
         tag: ['tailwind-css', 'react'],
     },
-    {
-        id: uuidv4(),
-        title: '3-Js-Profile - React + Tailwind-CSS',
-        liveUrl: 'https://p2-site-3js.netlify.app',
-        imgUrlEndPoint: 'Jkv9k5F/Three-Js-Profile',
-        tag: ['tailwind-css', 'react'],
-    },
-
-    // {
-    //     id: uuidv4(),
-    //     title: '3-Js-Taiseen - React + Tailwind-CSS',
-    //     liveUrl: 'https://p2-sites.netlify.app',
-    //     imgUrlEndPoint: 'mbqbsK1/Three-Js-Taiseen',
-    //     tag: ['tailwind-css', 'react'],
-    // },
-
     // {
     //     id: uuidv4(),
     //     title: 'Cine Rental - React + Tailwind-CSS',

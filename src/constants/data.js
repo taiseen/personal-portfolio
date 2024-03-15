@@ -11,8 +11,6 @@ const userInfo = {
     Language: 'Bangla, English, Hindi ',
 }
 
-
-
 const education = [
     {
         year: '2008 - 2007',
