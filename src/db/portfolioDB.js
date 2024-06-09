@@ -324,14 +324,20 @@ const portfolioDB = [
         imgUrlEndPoint: 'd68vy5G/lws-rnext-assignment-4',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Cine Rental - React + Tailwind-CSS',
+        liveUrl: 'https://cine-rental.netlify.app',
+        imgUrlEndPoint: 'TDybsBp/Project-3-Cine-Rental',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
-    //     title: 'Cine Rental - React + Tailwind-CSS',
-    //     liveUrl: 'https://cine-rental.netlify.app',
-    //     imgUrlEndPoint: '0000000000000000000000000',
+    //     title: 'Chat Firebase - React + Tailwind-CSS',
+    //     liveUrl: 'https://chat-app-firebase-db.netlify.app',
+    //     imgUrlEndPoint: 'fFbTKQ1/chat-app-firebase',
     //     tag: ['tailwind-css', 'react'],
     // },
-
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
