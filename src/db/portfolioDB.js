@@ -331,13 +331,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'TDybsBp/Project-3-Cine-Rental',
         tag: ['tailwind-css', 'react'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Chat Firebase - React + Tailwind-CSS',
-    //     liveUrl: 'https://chat-app-firebase-db.netlify.app',
-    //     imgUrlEndPoint: 'fFbTKQ1/chat-app-firebase',
-    //     tag: ['tailwind-css', 'react'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'Chat Firebase - React + Tailwind-CSS',
+        liveUrl: 'https://chat-app-firebase-db.netlify.app',
+        imgUrlEndPoint: 'fFbTKQ1/chat-app-firebase',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
