@@ -338,6 +338,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'fFbTKQ1/chat-app-firebase',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Mini Pro - React + Tailwind-CSS',
+        liveUrl: 'https://react-mini-pro.netlify.app',
+        imgUrlEndPoint: 'kGbrppZ/React-Mini-Project',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
