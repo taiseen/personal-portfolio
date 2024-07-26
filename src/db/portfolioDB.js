@@ -345,6 +345,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'kGbrppZ/React-Mini-Project',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Css Js Learning - JS + CSS',
+        liveUrl: 'https://taiseen.github.io/learning-css-js',
+        imgUrlEndPoint: 'jffpdtg/Css-Js-Learning',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
