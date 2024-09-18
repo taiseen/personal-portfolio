@@ -352,6 +352,14 @@ const portfolioDB = [
         imgUrlEndPoint: 'jffpdtg/Css-Js-Learning',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Advanced Auth - React + Tailwind-CSS',
+        liveUrl: 'https://learning-advanced-auth.netlify.app',
+        imgUrlEndPoint: 'rM17dX4/learning-advanced-auth',
+        tag: ['tailwind-css', 'react'],
+    },
+    
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
