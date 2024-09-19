@@ -349,7 +349,7 @@ const portfolioDB = [
         id: uuidv4(),
         title: 'Css Js Learning - JS + CSS',
         liveUrl: 'https://taiseen.github.io/learning-css-js',
-        imgUrlEndPoint: 'jffpdtg/Css-Js-Learning',
+        imgUrlEndPoint: 'nQp0kc5/learning-css-js',
         tag: ['tailwind-css', 'react'],
     },
     {
