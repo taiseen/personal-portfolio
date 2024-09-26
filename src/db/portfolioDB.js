@@ -355,7 +355,7 @@ const portfolioDB = [
     {
         id: uuidv4(),
         title: 'Advanced Auth - React + Tailwind-CSS',
-        liveUrl: 'https://learning-advanced-auth.netlify.app',
+        liveUrl: 'https://advanced-auth.netlify.app',
         imgUrlEndPoint: 'rM17dX4/learning-advanced-auth',
         tag: ['tailwind-css', 'react'],
     },
