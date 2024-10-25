@@ -333,7 +333,7 @@ const portfolioDB = [
     },
     {
         id: uuidv4(),
-        title: 'Chat Firebase - React + Tailwind-CSS',
+        title: 'Chat | Firebase - React + Tailwind-CSS',
         liveUrl: 'https://chat-app-firebase-db.netlify.app',
         imgUrlEndPoint: 'fFbTKQ1/chat-app-firebase',
         tag: ['tailwind-css', 'react'],
@@ -359,7 +359,20 @@ const portfolioDB = [
         imgUrlEndPoint: 'rM17dX4/learning-advanced-auth',
         tag: ['tailwind-css', 'react'],
     },
-    
+    {
+        id: uuidv4(),
+        title: 'LinkedIn Clone - React + Tailwind-CSS',
+        liveUrl: 'https://link-in.netlify.app',
+        imgUrlEndPoint: '0XCjjqh/link-in',
+        tag: ['tailwind-css', 'react'],
+    },
+    // {
+    //     id: uuidv4(),
+    //     title: 'Chat | MERN - React + Tailwind-CSS',
+    //     liveUrl: 'https://chat-app-mern-io.netlify.app',
+    //     imgUrlEndPoint: '0BjMst4/chat-app-mern',
+    //     tag: ['tailwind-css', 'react'],
+    // },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
