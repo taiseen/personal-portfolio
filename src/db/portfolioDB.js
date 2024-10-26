@@ -366,13 +366,13 @@ const portfolioDB = [
         imgUrlEndPoint: '0XCjjqh/link-in',
         tag: ['tailwind-css', 'react'],
     },
-    // {
-    //     id: uuidv4(),
-    //     title: 'Chat | MERN - React + Tailwind-CSS',
-    //     liveUrl: 'https://chat-app-mern-io.netlify.app',
-    //     imgUrlEndPoint: '0BjMst4/chat-app-mern',
-    //     tag: ['tailwind-css', 'react'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'Chat | MERN - React + Tailwind-CSS',
+        liveUrl: 'https://chat-app-mern-io.netlify.app',
+        imgUrlEndPoint: '0BjMst4/chat-app-mern',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
