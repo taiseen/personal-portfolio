@@ -373,6 +373,13 @@ const portfolioDB = [
         imgUrlEndPoint: '0BjMst4/chat-app-mern',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Expense Tracker Graphql - React + Tailwind-CSS',
+        liveUrl: 'https://expense-tracker-graphql-mern-stack.onrender.com',
+        imgUrlEndPoint: '5LGz0Yn/expense-tracker-graphql-mern-stack',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
