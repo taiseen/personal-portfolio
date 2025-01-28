@@ -380,6 +380,13 @@ const portfolioDB = [
         imgUrlEndPoint: '5LGz0Yn/expense-tracker-graphql-mern-stack',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Socially - NextJs + Tailwind-CSS',
+        liveUrl: 'https://socially-next-js.vercel.app',
+        imgUrlEndPoint: 'hcFhVFH/socially',
+        tag: ['tailwind-css', 'react'],
+    },
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
