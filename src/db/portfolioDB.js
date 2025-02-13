@@ -387,6 +387,14 @@ const portfolioDB = [
         imgUrlEndPoint: 'hcFhVFH/socially',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'Admin Dashboard - React + Tailwind-CSS',
+        liveUrl: 'https://admin-dashboard-react-js-vite.netlify.app',
+        imgUrlEndPoint: '0jB3PBcY/admin-dashboard-react-js-vite',
+        tag: ['tailwind-css', 'react'],
+    },
+
     // {
     //     id: uuidv4(),
     //     title: 'Resume Builder - React + Tailwind-CSS',
