@@ -394,6 +394,13 @@ const portfolioDB = [
         imgUrlEndPoint: '0jB3PBcY/admin-dashboard-react-js-vite',
         tag: ['tailwind-css', 'react'],
     },
+    {
+        id: uuidv4(),
+        title: 'NEWS CMS - Nodejs + EJS Template',
+        liveUrl: 'https://news-cms-nodejs.onrender.com/',
+        imgUrlEndPoint: '6RJLcphd/news-cms-nodejs',
+        tag: ['tailwind-css', 'node-js', 'express-js', 'mongodb'],
+    },
 
     // {
     //     id: uuidv4(),
