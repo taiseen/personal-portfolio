@@ -396,11 +396,26 @@ const portfolioDB = [
     },
     {
         id: uuidv4(),
+        title: 'Jeda-Pi - React + Tailwind-CSS',
+        liveUrl: 'https://app.jedapi.ai',
+        imgUrlEndPoint: 'n856M4gg/jeda-pi',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
         title: 'NEWS CMS - Nodejs + EJS Template',
         liveUrl: 'https://news-cms-nodejs.onrender.com/',
         imgUrlEndPoint: '6RJLcphd/news-cms-nodejs',
         tag: ['tailwind-css', 'node-js', 'express-js', 'mongodb'],
     },
+
+    // { 
+    //     id: uuidv4(),
+    //     title: 'Vector Search - React + Tailwind-CSS',
+    //     liveUrl: 'https://llm-vector-search.netlify.app',
+    //     imgUrlEndPoint: 'LDQVkmWZ/llm-vector-search',
+    //     tag: ['tailwind-css', 'react', 'node-js', 'express-js', 'mongodb'],
+    // },
 
     // {
     //     id: uuidv4(),
