@@ -340,13 +340,6 @@ const portfolioDB = [
     },
     {
         id: uuidv4(),
-        title: 'Mini Pro - React + Tailwind-CSS',
-        liveUrl: 'https://react-mini-pro.netlify.app',
-        imgUrlEndPoint: 'kGbrppZ/React-Mini-Project',
-        tag: ['tailwind-css', 'react'],
-    },
-    {
-        id: uuidv4(),
         title: 'Css Js Learning - JS + CSS',
         liveUrl: 'https://taiseen.github.io/learning-css-js',
         imgUrlEndPoint: 'nQp0kc5/learning-css-js',
@@ -354,16 +347,16 @@ const portfolioDB = [
     },
     {
         id: uuidv4(),
-        title: 'Advanced Auth - React + Tailwind-CSS',
-        liveUrl: 'https://advanced-auth.netlify.app',
-        imgUrlEndPoint: 'rM17dX4/learning-advanced-auth',
+        title: 'LinkedIn Clone - React + Tailwind-CSS',
+        liveUrl: 'https://link-in.netlify.app',
+        imgUrlEndPoint: '0XCjjqh/link-in',
         tag: ['tailwind-css', 'react'],
     },
     {
         id: uuidv4(),
-        title: 'LinkedIn Clone - React + Tailwind-CSS',
-        liveUrl: 'https://link-in.netlify.app',
-        imgUrlEndPoint: '0XCjjqh/link-in',
+        title: 'Advanced Auth - React + Tailwind-CSS',
+        liveUrl: 'https://advanced-auth.netlify.app',
+        imgUrlEndPoint: 'rM17dX4/learning-advanced-auth',
         tag: ['tailwind-css', 'react'],
     },
     {
@@ -382,9 +375,9 @@ const portfolioDB = [
     },
     {
         id: uuidv4(),
-        title: 'Socially - NextJs + Tailwind-CSS',
-        liveUrl: 'https://socially-next-js.vercel.app',
-        imgUrlEndPoint: 'hcFhVFH/socially',
+        title: 'Mini Pro - React + Tailwind-CSS',
+        liveUrl: 'https://react-mini-pro.netlify.app',
+        imgUrlEndPoint: 'kGbrppZ/React-Mini-Project',
         tag: ['tailwind-css', 'react'],
     },
     {
@@ -392,6 +385,13 @@ const portfolioDB = [
         title: 'Admin Dashboard - React + Tailwind-CSS',
         liveUrl: 'https://admin-dashboard-react-js-vite.netlify.app',
         imgUrlEndPoint: '0jB3PBcY/admin-dashboard-react-js-vite',
+        tag: ['tailwind-css', 'react'],
+    },
+    {
+        id: uuidv4(),
+        title: 'Socially - NextJs + Tailwind-CSS',
+        liveUrl: 'https://socially-next-js.vercel.app',
+        imgUrlEndPoint: 'hcFhVFH/socially',
         tag: ['tailwind-css', 'react'],
     },
     {
@@ -408,14 +408,13 @@ const portfolioDB = [
         imgUrlEndPoint: '6RJLcphd/news-cms-nodejs',
         tag: ['tailwind-css', 'node-js', 'express-js', 'mongodb'],
     },
-
-    // { 
-    //     id: uuidv4(),
-    //     title: 'Vector Search - React + Tailwind-CSS',
-    //     liveUrl: 'https://llm-vector-search.netlify.app',
-    //     imgUrlEndPoint: 'LDQVkmWZ/llm-vector-search',
-    //     tag: ['tailwind-css', 'react', 'node-js', 'express-js', 'mongodb'],
-    // },
+    {
+        id: uuidv4(),
+        title: 'AI Vector Search - React + Tailwind-CSS',
+        liveUrl: 'https://llm-vector-search.netlify.app',
+        imgUrlEndPoint: 'LDQVkmWZ/llm-vector-search',
+        tag: ['tailwind-css', 'react', 'node-js', 'express-js', 'mongodb'],
+    },
 
     // {
     //     id: uuidv4(),
