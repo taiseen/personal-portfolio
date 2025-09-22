@@ -415,6 +415,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'LDQVkmWZ/llm-vector-search',
         tag: ['tailwind-css', 'react', 'node-js', 'express-js', 'mongodb'],
     },
+    {
+        id: uuidv4(),
+        title: 'Stripe Demo',
+        liveUrl: 'https://stripe-nextjs-demo-pi.vercel.app',
+        imgUrlEndPoint: 'DHFnK2dg/Stripe-Demo',
+        tag: ['tailwind-css', 'next-js', 'prisma', 'mongodb', 'stripe'],
+    },
 
     // {
     //     id: uuidv4(),
