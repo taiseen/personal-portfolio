@@ -422,6 +422,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'DHFnK2dg/Stripe-Demo',
         tag: ['tailwind-css', 'next-js', 'prisma', 'mongodb', 'stripe'],
     },
+    {
+        id: uuidv4(),
+        title: 'Stripe Subscription',
+        liveUrl: 'https://stripe-nextjs-product-uzwz.vercel.app',
+        imgUrlEndPoint: 'PzVFLVfv/stripe-nextjs-product',
+        tag: ['tailwind-css', 'next-js', 'clerk', 'convex', 'stripe'],
+    },
 
     // {
     //     id: uuidv4(),

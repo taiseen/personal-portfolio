@@ -33,10 +33,10 @@ const Header = () => {
     return (
         <header id="header" ref={menu}>
 
-            <div className="user" title='Taiseen - Frontend Developer '>
+            <div className="user" title='Taiseen - Fullstack Developer '>
                 <img src={images.me} alt="taiseen" loading='lazy' />
                 <h3 className="name">Taiseen</h3>
-                <p className="post"> 🎨 Frontend Developer 😎</p>
+                <p className="post">⚙️ Fullstack Developer 🛠️</p>
             </div>
 
             <Navigation />
