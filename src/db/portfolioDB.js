@@ -429,6 +429,13 @@ const portfolioDB = [
         imgUrlEndPoint: 'PzVFLVfv/stripe-nextjs-product',
         tag: ['tailwind-css', 'next-js', 'clerk', 'convex', 'stripe'],
     },
+    {
+        id: uuidv4(),
+        title: 'Dental Assistant',
+        liveUrl: 'https://dental-assistant-hznyg.sevalla.app',
+        imgUrlEndPoint: 'QvRxZ029/dental-assistant',
+        tag: ['tailwind-css', 'next-js', 'clerk', 'prisma',],
+    },
 
     // {
     //     id: uuidv4(),
