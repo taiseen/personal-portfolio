@@ -432,7 +432,7 @@ const portfolioDB = [
     {
         id: uuidv4(),
         title: 'Dental Assistant',
-        liveUrl: 'https://dental-assistant-hznyg.sevalla.app',
+        liveUrl: 'https://dental-assistant-mu.vercel.app',
         imgUrlEndPoint: 'QvRxZ029/dental-assistant',
         tag: ['tailwind-css', 'next-js', 'clerk', 'prisma',],
     },
