@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "aos": "^2.3.4",

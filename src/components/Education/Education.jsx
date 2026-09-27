@@ -13,10 +13,6 @@ const Institute = ({ org: { year, level, institute, city } }) => (
 
 const Education = () => {
 
-    useEffect(() => {
-
-    }, [])
-
     return (
         <section id="education" className="education">
 
