@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import { data } from '../../constants'
-import './Education.scss'
 
 const Institute = ({ org: { year, level, institute, city } }) => (
     <div className="box" data-aos={"fade-down"} >

@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# ignore these also
+.env
+.env.local
+.next*
+.t*
+
+bun.lock
+yarn.lock
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+/src/generated/prisma
+/server/src/uploads/
+/server/src/dev/
+/client/src/dev/
+/src/dev/
+/dev/

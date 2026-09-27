@@ -1,6 +1,5 @@
-import Typed from 'react-typed';
+import { ReactTyped } from 'react-typed';
 import { data } from '../../constants';
-import './Home.scss';
 
 const Home = () => {
 
@@ -11,23 +10,13 @@ const Home = () => {
         'a Deep Learner 🧐',
     ];
 
-
     return (
         <section id="home" className="home">
 
             <h3>Hi there... 👋</h3>
-            <h1>I'm
-                <span className="auto-input">
-                    <Typed
-                        strings={introLines}
-                        typeSpeed={80}
-                        backSpeed={30}
-                        loop
-                    />
-                </span>
-            </h1>
+            <h1>I'm <span className="auto-input"><ReactTyped strings={introLines} typeSpeed={80} backSpeed={30} loop={true} /></span></h1>
             <div className="myQuotes">
-            “<span className="salam">As-Salamu-Alaikum</span>” 
+            "<span className="salam">As-Salamu-Alaikum</span>" 
                 <span className="mySpeech">
                     {data.mySpeech}
                 </span>

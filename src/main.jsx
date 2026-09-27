@@ -2,13 +2,14 @@ import GoogleAnalytics from './components/GoogleAnalytics';
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import App from './App';
-import './style/index.scss';
+import './style/index.css';
 
-ReactDOM
-  .createRoot(document.getElementById('root'))
-  .render(
-    <React.StrictMode>
-      <App />
-      <GoogleAnalytics />
-    </React.StrictMode>,
-  )
+const htmlRoot = document.getElementById('root');
+const reactRoot = ReactDOM.createRoot(htmlRoot);
+
+reactRoot.render(
+  <React.StrictMode>
+    <App />
+    <GoogleAnalytics />
+  </React.StrictMode>,
+)

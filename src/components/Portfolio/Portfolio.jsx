@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import portfolioDB from '../../db/portfolioDB'
-import './Portfolio.scss'
 
 const Portfolio = () => {
 

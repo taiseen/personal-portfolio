@@ -1,5 +1,5 @@
 import certificate from '../assets/certificate.jpg';
-import cv from "../assets/Taiseen's CV .pdf";
+import cv from "../assets/Taiseen_Azam_Resume .pdf";
 import me from '../assets/me.jpg';
 import up from '../assets/up.png';
 

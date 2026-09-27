@@ -3,7 +3,6 @@ import GoToTop from '../Utilities/GoToTop';
 import Navigation from './Navigation';
 import { useEffect, useRef } from 'react'
 import { images } from '../../constants';
-import './Header.scss';
 
 const Header = () => {
 
@@ -41,8 +40,8 @@ const Header = () => {
 
             <Navigation />
 
-            <div className="utilities">
-                <div id="themeToggling" onClick={toggleThemeColor}>
+            <div className="utilities ">
+                <div id="themeToggling" className="flex items-center justify-center" onClick={toggleThemeColor}>
                     <i className="fas fa-sun" ref={toggleTheme} ></i>
                 </div>
 

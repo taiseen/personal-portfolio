@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { data } from '../../constants'
-import './Skills.scss'
 
 const SkillBox = ({ skill: { name, percent } }) => (
     <div className="box" data-aos={"fade-down"}>

@@ -1,7 +1,6 @@
 import portfolioDB from '../../db/portfolioDB';
 import { data, images } from '../../constants';
 import { useRef } from 'react'
-import './About.scss';
 
 const About = () => {
 

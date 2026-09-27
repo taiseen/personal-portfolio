@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
 import { data } from '../../constants';
-import './Header.scss';
 
 const Navigation = () => {
 

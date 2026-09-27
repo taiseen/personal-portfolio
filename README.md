@@ -1,9 +1,10 @@
-> | Date            | Action                            |
-> | --------------- | --------------------------------- |
-> | 03 - May - 2021 | Project Start ✨                  |
-> | 11 - Feb - 2022 | migrate from `css` to `sass`      |
-> | 04 - Mar - 2022 | migrate from `html-js` to `react` |
-> | 31 - Jan - 2023 | migrate from `react` to `vite`    |
+> | Date            | Action                               |
+> | --------------- | ------------------------------------ |
+> | 03 - May - 2021 | Project Start ✨                     |
+> | 11 - Feb - 2022 | migrate from `css` to `sass`         |
+> | 04 - Mar - 2022 | migrate from `html-js` to `react`    |
+> | 31 - Jan - 2023 | migrate from `react` to `vite`       |
+> | 26 - Sep - 2026 | migrate from `sass` to `tailwindcss` |
 
 # Personal Portfolio - [Live Link](https://taiseen.netlify.app)
 
