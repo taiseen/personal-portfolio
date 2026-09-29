@@ -12,11 +12,16 @@
     "node": ">=22"
   },
   "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
     "@tailwindcss/vite": "^4.3.3",
     "aos": "^2.3.4",
+    "framer-motion": "^13.4.6",
+    "maath": "^0.10.8",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "react-ga4": "^3.0.1",
+    "react-hook-form": "^7.89.0",
     "react-typed": "^2.0.12",
     "uuid": "^14.0.2"
   },

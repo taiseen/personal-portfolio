@@ -1,6 +1,6 @@
 import ScrollIndicator from '../Utilities/ScrollIndicator';
 import GoToTop from '../Utilities/GoToTop';
-import Navigation from './Navigation';
+import SideBarNavigation from './Navigation';
 import { useEffect, useRef } from 'react'
 import { images } from '../../constants';
 
@@ -38,7 +38,7 @@ const Header = () => {
                 <p className="post">⚙️ Fullstack Developer 🛠️</p>
             </div>
 
-            <Navigation />
+            <SideBarNavigation />
 
             <div className="utilities ">
                 <div id="themeToggling" className="flex items-center justify-center" onClick={toggleThemeColor}>

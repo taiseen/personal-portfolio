@@ -34,7 +34,7 @@ const About = () => {
 
                 <div className="counter" data-aos={"fade-down"} >
                     <div className="box">
-                        <span>1+</span>
+                        <span>3+</span>
                         <h3>Year of experience</h3>
                     </div>
 
