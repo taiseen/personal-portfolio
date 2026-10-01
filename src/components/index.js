@@ -3,7 +3,7 @@ import Home from './Home/Home';
 import About from './About/About';
 import Education from './Education/Education';
 import Skills from './Skills/Skills';
-import Portfolio from './Portfolio/Portfolio';
+import PortfolioContainer from './Portfolio/PortfolioContainer';
 import Contact from './Contact/Contact';
 
 export {
@@ -12,6 +12,6 @@ export {
     About,
     Education,
     Skills,
-    Portfolio,
+    PortfolioContainer,
     Contact,
 };

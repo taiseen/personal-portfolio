@@ -1,4 +1,4 @@
-import { Home, About, Education, Portfolio, Contact } from "./components";
+import { Home, About, Education, PortfolioContainer, Contact } from "./components";
 import { Suspense, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -61,7 +61,7 @@ function App() {
     <RootLayout>
       <Suspense fallback={<Loading />}>
         <Home />
-        <Portfolio />
+        <PortfolioContainer />
         <About />
         <Education />
         <Contact />
