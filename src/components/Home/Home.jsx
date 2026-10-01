@@ -16,7 +16,7 @@ const Home = () => {
             <h3>Hi there... 👋</h3>
             <h1>I'm <span className="auto-input"><ReactTyped strings={introLines} typeSpeed={80} backSpeed={30} loop={true} /></span></h1>
             <div className="myQuotes">
-            "<span className="salam">As-Salamu-Alaikum</span>" 
+                "<span className="salam">As-Salamu-Alaikum</span>"
                 <span className="mySpeech">
                     {data.mySpeech}
                 </span>

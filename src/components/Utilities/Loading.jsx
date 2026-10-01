@@ -1,6 +1,6 @@
 const Loading = () => {
   return (
-    <div className="text-4xl text-yellow-400 h-[80%] text-center pt-10">
+    <div className="text-[4rem] text-[var(--color-yellow)] h-[80%] text-center pt-[10rem]">
       Loading...
     </div>
   );

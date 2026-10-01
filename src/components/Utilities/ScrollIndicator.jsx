@@ -15,35 +15,16 @@ const ScrollIndicator = () => {
     setScroll(scrolled);
   }
 
-
-  const progressBarWidth = {
-    position: 'fixed',
-    top: '0',
-    left: '0',
-    height: '.4rem',
-    zIndex: '999',
-    borderTopRightRadius: '1px',
-    borderBottomRightRadius: '1px',
-    backgroundColor: 'var(--yellow)',
-    width: scroll,
-  }
-
-  const progressBarNumber = {
-    fontSize: '1.7rem',
-    color: 'var(--white)',
-    position: 'absolute',
-    top: '.2rem',
-    right: '0rem',
-  }
-
-
   useEffect(() => window.addEventListener("scroll", scrollProgress), []);
 
 
   return (
 
-    <div style={progressBarWidth}>
-      <span style={progressBarNumber}>
+    <div
+      className="fixed top-0 left-0 h-[0.4rem] z-[999] border-t-none border-b-[1px_solid_transparent] bg-[var(--color-yellow)]"
+      style={{ width: scroll }}
+    >
+      <span className="text-[1.7rem] text-[var(--color-white)] absolute top-[0.2rem] right-0">
         {/* {`${parseFloat(scroll).toFixed(0)}%`} */}
       </span>
     </div>

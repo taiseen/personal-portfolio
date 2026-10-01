@@ -13,28 +13,16 @@ const GoToTop = () => {
         }
     }
 
-    const topStyling = {
-        position: 'fixed',
-        bottom: '3rem',
-        right: '2rem',
-        zIndex: '100',
-        width: '5rem',
-        transformOrigin: 'bottom right',
-        transition: 'transform .5s linear',
-        transform: goToTop ? 'scale(1)' : 'scale(0)',
-    }
-
-
     useEffect(() => window.addEventListener("scroll", goToTopFunction), []);
 
 
     return (
         <a
             href="/#home"
-            style={topStyling}
+            className={`fixed bottom-[3rem] right-[2rem] z-[100] w-[5rem] transition-transform .5s-linear origin-bottom-right ${goToTop ? 'scale-100' : 'scale-0'}`}
         >
             <img
-                style={{ width: '100%' }}
+                className="w-full"
                 src={images.up}
                 alt="up-arrow"
                 loading='lazy'

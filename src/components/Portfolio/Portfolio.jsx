@@ -89,11 +89,9 @@ const WorkBox = ({ info: { title, liveUrl, imgUrlEndPoint, tag } }) => {
         <div className="dot"></div>
       </div>
 
-      {/* <img src={`https://i.ibb.co/${imgUrlEndPoint}.jpg`} alt={title} /> */}
       <span
         className={`lazy-background-image ${loaded ? 'loaded' : ''}`}
         style={{ backgroundImage: `url(${loaded ? backgroundImg : ''})` }}
-      // style={{ backgroundImage: `url(${backgroundImg})` }}
       >
 
       </span>

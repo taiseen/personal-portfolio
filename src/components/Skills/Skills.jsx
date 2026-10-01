@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { data } from '../../constants'
 
 const SkillBox = ({ skill: { name, percent } }) => (
-    <div className="box" data-aos={"fade-down"}>
+    <div className="skill-box" data-aos={"fade-down"}>
         <h4>{name}</h4>
         <div className="percent">
             <div className="progressColor" style={{ width: `${percent}%` }}>
@@ -18,13 +18,13 @@ const Skills = () => {
 
     }, [])
 
-    
+
     return (
         <section id="skills" className="skills">
             <h1 className="heading">My <span>Expertise</span></h1>
             <div className="skills-container">
                 {
-                    data.skills.map(skill => (
+                    data.skills?.map(skill => (
                         <SkillBox key={skill.id} skill={skill} />
                     ))
                 }

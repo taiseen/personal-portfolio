@@ -1,5 +1,3 @@
-
-
 const Contact = () => {
 
 
@@ -27,7 +25,7 @@ const Contact = () => {
                     <textarea id="message" className="box message" placeholder="message"></textarea>
 
                     <button type="submit" className="btn">
-                        send <i className="fas fa-paper-plane"></i>
+                        Send <i className="fas fa-paper-plane"></i>
                     </button>
                 </form>
             </div>

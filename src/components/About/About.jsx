@@ -33,22 +33,22 @@ const About = () => {
                 </div>
 
                 <div className="counter" data-aos={"fade-down"} >
-                    <div className="box">
-                        <span>3+</span>
+                    <div className="counter-box">
+                        <span>3.5+</span>
                         <h3>Year of experience</h3>
                     </div>
 
-                    <div className="box">
+                    <div className="counter-box">
                         <span>{portfolioDB.length}+</span>
                         <h3>Project Completed</h3>
                     </div>
 
-                    <div className="box">
+                    <div className="counter-box">
                         <span>8+</span>
                         <h3>Happy Client</h3>
                     </div>
 
-                    <div className="box award" onMouseOver={showAward}>
+                    <div className="counter-box award" onMouseOver={showAward}>
                         <span>1+</span>
                         <h3>Certification</h3>
                         <img alt="award-img" className="hoverImage" ref={imageShow} loading='lazy' />
