@@ -1,3 +1,4 @@
+import SectionHeading from "../Utilities/SectionHeading";
 import { data } from "../../constants";
 
 const Institute = ({ idx, org: { year, level, institute, city, link } }) => (
@@ -45,9 +46,7 @@ const Institute = ({ idx, org: { year, level, institute, city, link } }) => (
 const Education = () => {
   return (
     <section id="education" className="min-h-screen py-24 px-4">
-      <h1 className="text-[4rem] text-center text-white p-4 mx-auto max-w-4xl border-b border-white/40 mb-16">
-        My <span className="text-(--color-yellow)">Education</span>
-      </h1>
+      <SectionHeading spanValue="Education" data="My" />
 
       {/* Changed max-w-fit to max-w-5xl w-full to fix mobile breaking */}
       <div className="max-w-5xl w-full mx-auto relative">

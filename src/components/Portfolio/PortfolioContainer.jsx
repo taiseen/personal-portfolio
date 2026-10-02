@@ -1,5 +1,6 @@
-import { motion, AnimatePresence } from "framer-motion"; // 1. Import Framer Motion hooks
+import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import SectionHeading from "../Utilities/SectionHeading";
 import portfolioDB from "../../db/portfolioDB";
 import PortfolioCart from "./PortfolioCart";
 
@@ -19,7 +20,6 @@ const PortfolioContainer = () => {
     { context: "react + node-js" },
   ];
 
-  // 2. Clean filtering logic: prevents `false` values from entering the render array
   const filteredPortfolio =
     activeClick === "all"
       ? [...portfolioDB].reverse()
@@ -31,16 +31,18 @@ const PortfolioContainer = () => {
           .reverse();
 
   return (
-    <section id="portfolio" className="portfolio">
-      <h1 className="heading">
-        <span>portfolio</span>
-      </h1>
+    <section id="works" className="min-h-screen p-4 max-[480px]:p-2">
+      <SectionHeading spanValue="Works" data="My" />
 
-      <ul className="btn-container">
+      <ul className="flex flex-wrap items-center justify-center py-8 list-none gap-6">
         {category.map((cat) => (
           <li
             key={cat.context}
-            className={`btn ${activeClick === cat.context ? "active" : ""}`}
+            className={`inline-block w-max py-3 px-6 bg-(--color-leftside) cursor-pointer text-[2rem] rounded-xl transition-colors duration-300 ${
+              activeClick === cat.context
+                ? "bg-(--color-yellow)"
+                : "text-[var(--color-white)] hover:bg-(--color-yellow) hover:text-(--color-education)"
+            }`}
             onClick={() => setActiveClick(cat.context)}
           >
             {cat.context}
@@ -48,8 +50,10 @@ const PortfolioContainer = () => {
         ))}
       </ul>
 
-      {/* 3. Wrap the mapped items in AnimatePresence */}
-      <motion.div className="work-container" layout>
+      <motion.div
+        className="flex items-center justify-center flex-wrap gap-10 py-2"
+        layout
+      >
         <AnimatePresence mode="popLayout">
           {filteredPortfolio.map((info) => (
             <PortfolioCart key={info.id} info={info} />

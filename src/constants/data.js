@@ -43,7 +43,7 @@ const education = [
 
 const navbarMenu = [
     { path: '#home', link: 'Home' },
-    { path: '#portfolio', link: 'Portfolio' },
+    { path: '#works', link: 'Works' },
     { path: '#about', link: 'About' },
     { path: '#education', link: 'Education' },
     // { path: '#skills', link: 'Skills' },

@@ -21,7 +21,7 @@ const ScrollIndicator = () => {
   return (
 
     <div
-      className="fixed top-0 left-0 h-[0.4rem] z-[999] border-t-none border-b-[1px_solid_transparent] bg-[var(--color-yellow)]"
+      className="fixed top-0 left-0 h-[0.4rem] z-[999] border-t-none border-b-[1px_solid_transparent] bg-(--color-yellow)"
       style={{ width: scroll }}
     >
       <span className="text-[1.7rem] text-[var(--color-white)] absolute top-[0.2rem] right-0">

@@ -32,8 +32,8 @@ const Header = () => {
       {/* Header Sidebar */}
       <header
         id="header"
-        className={`fixed top-0 z-1000 h-screen w-full md:w-140 bg-(--color-leftside) shadow-(--box-shadow-card) flex flex-col items-center justify-center text-center transition-all duration-300 ease-in-out ${
-          isMenuOpen ? "left-0" : "-left-full md:left-0"
+        className={`fixed top-0 z-[1000] h-screen w-[35rem] max-[480px]:w-screen bg-(--color-leftside) shadow-[var(--box-shadow-card)] flex flex-col items-center justify-center text-center transition-all duration-300 ease-in-out ${
+          isMenuOpen ? "left-0" : "-left-full lg:left-0"
         }`}
       >
         <div
@@ -78,7 +78,7 @@ const Header = () => {
       {/* Mobile Menu Toggle Button - Rightmost position */}
       <div
         id="menu"
-        className={`fas fa-bars fixed top-8 right-8 p-4 bg-(--color-leftside) rounded-[0.3rem] cursor-pointer z-1000 hidden md:flex items-center justify-center text-[2.5rem] transition-colors duration-300 ${
+        className={`fas fa-bars fixed top-8 right-8 p-4 bg-(--color-leftside) rounded-[0.3rem] cursor-pointer z-1000 flex xl:hidden items-center justify-center text-[2.5rem] transition-colors duration-300 ${
           isMenuOpen ? "text-[tomato]" : "text-(--color-yellow)"
         }`}
         onClick={toggleMenu}
