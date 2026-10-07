@@ -24,25 +24,24 @@ const PortfolioContainer = () => {
     activeClick === "all"
       ? [...portfolioDB].reverse()
       : portfolioDB
-          .filter((info) => {
-            const [tag1, tag2] = activeClick.split("+").map((t) => t.trim());
-            return info.tag[0] === tag1 && info.tag[1] === tag2;
-          })
-          .reverse();
+        .filter((info) => {
+          const [tag1, tag2] = activeClick.split("+").map((t) => t.trim());
+          return info.tag[0] === tag1 && info.tag[1] === tag2;
+        })
+        .reverse();
 
   return (
-    <section id="works" className="min-h-screen p-4 max-[480px]:p-2">
-      <SectionHeading spanValue="Works" data="My" />
+    <section id="work" className="min-h-screen p-4 max-[480px]:p-2">
+      <SectionHeading spanValue="Work" data="Samples..." />
 
       <ul className="flex flex-wrap items-center justify-center py-8 list-none gap-6">
         {category.map((cat) => (
           <li
             key={cat.context}
-            className={`inline-block w-max py-3 px-6 bg-(--color-leftside) cursor-pointer text-[2rem] rounded-xl transition-colors duration-300 ${
-              activeClick === cat.context
+            className={`inline-block w-max py-3 px-6 bg-(--color-leftside) cursor-pointer text-[2rem] rounded-xl transition-colors duration-300 ${activeClick === cat.context
                 ? "bg-(--color-yellow)"
                 : "text-[var(--color-white)] hover:bg-(--color-yellow) hover:text-(--color-education)"
-            }`}
+              }`}
             onClick={() => setActiveClick(cat.context)}
           >
             {cat.context}
