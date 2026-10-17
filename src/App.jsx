@@ -1,9 +1,15 @@
-import { Home, About, Education, PortfolioContainer, Contact } from "./components";
 import { Suspense, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import RootLayout from "./layout/RootLayout";
 import Loading from "./components/Utilities/Loading";
+import RootLayout from "./layout/RootLayout";
+import AOS from "aos";
+import {
+  PortfolioContainer,
+  Education,
+  Contact,
+  About,
+  Home,
+} from "./components";
+import "aos/dist/aos.css";
 
 function App() {
   let message =
