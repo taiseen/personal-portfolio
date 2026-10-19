@@ -593,9 +593,12 @@ const portfolioDB = [
         imgUrlEndPoint: '6RJLcphd/news-cms-nodejs',
         type: [projectTypes.fullstack.value],
         tag: [
-            techStacks.backend.nodeJs.value,
+            techStacks.backend.cookieParser.value,
             techStacks.backend.expressJs.value,
+            techStacks.backend.slugify.value,
             techStacks.backend.mongodb.value,
+            techStacks.backend.nodeJs.value,
+            techStacks.backend.multer.value,
             techStacks.backend.ejs.value,
             techStacks.frontend.tailwindCss.value,
             techStacks.frontend.chartJs.value,
@@ -613,8 +616,15 @@ const portfolioDB = [
             techStacks.backend.mongodb.value,
             techStacks.backend.nodeJs.value,
             techStacks.backend.llm.value,
+            techStacks.backend.openai.value,
             techStacks.frontend.framerMotion.value,
             techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.reactRouterDom.value,
+            techStacks.frontend.axios.value,
+            techStacks.frontend.tanstackQuery.value,
+            techStacks.frontend.eslint.value,
+
+
         ],
     },
     {
