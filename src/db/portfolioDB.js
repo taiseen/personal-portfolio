@@ -566,11 +566,14 @@ const portfolioDB = [
         type: [projectTypes.fullstack.value],
         tag: [
             techStacks.common.nextJs.value,
-            techStacks.backend.clerk.value,
             techStacks.backend.prisma.value,
-            techStacks.frontend.ts.value,
-            techStacks.frontend.shadcnUi.value,
+            techStacks.backend.clerk.value,
+            techStacks.frontend.reactHotToast.value,
             techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.uploadthing.value,
+            techStacks.frontend.shadcnUi.value,
+            techStacks.frontend.dateFns.value,
+            techStacks.frontend.ts.value,
         ],
     },
     {
