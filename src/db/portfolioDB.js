@@ -543,7 +543,24 @@ const portfolioDB = [
         liveUrl: 'https://react-mini-pro.netlify.app',
         imgUrlEndPoint: 'kGbrppZ/React-Mini-Project',
         type: [projectTypes.frontend.value],
-        tag: [techStacks.frontend.tailwindCss.value, techStacks.common.reactJs.value],
+        tag: [
+
+            techStacks.frontend.reactVirtualized.value,
+            techStacks.frontend.reactRouterDom.value,
+            techStacks.frontend.reactHookForm.value,
+            techStacks.frontend.reactLightbox.value,
+            techStacks.frontend.reactHotToast.value,
+            techStacks.frontend.reactToastify.value,
+            techStacks.frontend.reactDropzone.value,
+            techStacks.frontend.reduxToolkit.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.reactGa4.value,
+            techStacks.frontend.tippyJs.value,
+            techStacks.frontend.chartJs.value,
+            techStacks.frontend.dndKit.value,
+            techStacks.frontend.xyflow.value,
+            techStacks.common.reactJs.value,
+        ],
     },
     {
         id: uuidv4(),
@@ -552,10 +569,11 @@ const portfolioDB = [
         imgUrlEndPoint: '0jB3PBcY/admin-dashboard-react-js-vite',
         type: [projectTypes.frontend.value],
         tag: [
-            techStacks.frontend.tailwindCss.value,
-            techStacks.common.reactJs.value,
+            techStacks.frontend.reactRouterDom.value,
             techStacks.frontend.framerMotion.value,
-            techStacks.frontend.chartJs.value, // Mapped 'chart' to 'chartJs'
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.recharts.value,
+            techStacks.common.reactJs.value,
         ],
     },
     {
