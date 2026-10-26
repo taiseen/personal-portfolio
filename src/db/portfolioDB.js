@@ -443,8 +443,12 @@ const portfolioDB = [
         imgUrlEndPoint: 'fFbTKQ1/chat-app-firebase',
         type: [projectTypes.fullstack.value],
         tag: [
-            techStacks.frontend.tailwindCss.value,
             techStacks.common.reactJs.value,
+            techStacks.frontend.reactToastify.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.emojiPicker.value,
+            techStacks.frontend.zustand.value,
+            techStacks.frontend.eslint.value,
             techStacks.backend.firebase.value,
         ],
     },

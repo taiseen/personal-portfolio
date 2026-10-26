@@ -13,6 +13,7 @@ export const techStacks = {
         framerMotion: { label: "Framer Motion", value: "framer-motion" },
         apolloClient: { label: "Apollo Client", value: "apollo-client" },
         tailwindCss: { label: "Tailwind CSS", value: "tailwind-css" },
+        emojiPicker: { label: "Emoji Picker", value: "emoji-picker" },        
         lucideReact: { label: "Lucide React", value: "lucide-react" },
         uploadthing: { label: "UploadThing", value: "uploadthing" },
         materialUi: { label: "Material UI", value: "material-ui" },
