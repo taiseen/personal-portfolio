@@ -370,7 +370,16 @@ const portfolioDB = [
         liveUrl: 'https://hotel-booking-sites.netlify.app',
         imgUrlEndPoint: 'QNggfdS/hotel-booking-sites',
         type: [projectTypes.frontend.value],
-        tag: [techStacks.frontend.tailwindCss.value, techStacks.common.reactJs.value],
+        tag: [
+            techStacks.frontend.reactDatepicker.value,
+            techStacks.frontend.reactRouterDom.value,
+            techStacks.frontend.spinnersReact.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.reactIcons.value,
+            techStacks.frontend.headlessUI.value,
+            techStacks.frontend.swiper.value,
+            techStacks.common.reactJs.value
+        ],
     },
     {
         id: uuidv4(),
@@ -391,9 +400,10 @@ const portfolioDB = [
         imgUrlEndPoint: 'gRV96Fx/lws-rnext-assignment-2',
         type: [projectTypes.frontend.value],
         tag: [
-            techStacks.frontend.tailwindCss.value,
-            techStacks.common.reactJs.value,
             techStacks.common.apiIntegration.value,
+            techStacks.common.reactJs.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.eslint.value,
         ],
     },
     {
@@ -402,7 +412,11 @@ const portfolioDB = [
         liveUrl: 'https://lws-rnext-assignment-3-taiseen.vercel.app',
         imgUrlEndPoint: 'pZZ5Km3/lws-rnext-assignment-3',
         type: [projectTypes.frontend.value],
-        tag: [techStacks.frontend.tailwindCss.value, techStacks.common.reactJs.value],
+        tag: [
+            techStacks.common.reactJs.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.eslint.value,
+        ],
     },
     {
         id: uuidv4(),
@@ -411,9 +425,10 @@ const portfolioDB = [
         imgUrlEndPoint: 'fCv2V43/Project-4-Real-Time-Weather-Dashboard',
         type: [projectTypes.frontend.value],
         tag: [
-            techStacks.frontend.tailwindCss.value,
-            techStacks.common.reactJs.value,
             techStacks.common.apiIntegration.value,
+            techStacks.common.reactJs.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.eslint.value,
         ],
     },
     {
@@ -423,9 +438,10 @@ const portfolioDB = [
         imgUrlEndPoint: 'd68vy5G/lws-rnext-assignment-4',
         type: [projectTypes.frontend.value],
         tag: [
-            techStacks.frontend.tailwindCss.value,
-            techStacks.common.reactJs.value,
             techStacks.common.apiIntegration.value,
+            techStacks.common.reactJs.value,
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.eslint.value,
         ],
     },
     {
@@ -434,7 +450,11 @@ const portfolioDB = [
         liveUrl: 'https://cine-rental.netlify.app',
         imgUrlEndPoint: 'TDybsBp/Project-3-Cine-Rental',
         type: [projectTypes.frontend.value],
-        tag: [techStacks.frontend.tailwindCss.value, techStacks.common.reactJs.value],
+        tag: [
+            techStacks.frontend.tailwindCss.value,
+            techStacks.frontend.eslint.value,
+            techStacks.common.reactJs.value,
+        ],
     },
     {
         id: uuidv4(),
